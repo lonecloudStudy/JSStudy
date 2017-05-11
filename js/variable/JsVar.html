@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSVar</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    var color="blue";
+    /**
+     * 修改全局作用域
+     * @param color
+     * 如果全局作用域和局部作用域优先使用局部作用域
+     * 如果这个不是Object类型的话，则修改不了其里面的值
+     */
+    function changeColor(color) {
+        if(color=="blue"){
+            color="red";
+        }else{
+            color="blue";
+        }
+    }
+    var demo="blue";
+    changeColor(demo);
+    alert(color);
+    alert(demo);
+</script>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSObj</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    /**
+     * 证明toString 调用的是类中的toString方法，toLocaleString是调用每一个父类的toLocaleString方法
+     * @type {{name: string, toString: person1.toString, toLocaleString: person1.toLocaleString}}
+     */
+    var person1 = {
+        name: "person1",
+        toString: function () {
+            return this.name+"toString";
+        },
+        toLocaleString: function () {
+            return this.name+"toLocaleString";
+        }
+    };
+    var person2 = {
+        name: "person2",
+        toString: function () {
+            return this.name+"toString";
+        },
+        toLocaleString: function () {
+            return this.name+"toLocaleString";
+        }
+    };
+
+    var people=[person1,person2];
+    alert("toString is"+people.toString());
+    alert("toLocaleString is"+people.toLocaleString());
+</script>
