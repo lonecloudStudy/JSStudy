@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+函数的内部属性：
+arguments用于保存参数
+arguments.callee(args)为该属性的一个指针，指向该对象的函数，即为本函数
+</body>
+<script>
+    /**
+     * 递归函数
+     * @param num
+     * @returns {*}
+     */
+    function factorial(num) {
+        if(num<=1){
+            return 1;
+        }else{
+            return num+factorial(num-1);
+        }
+    }
+    /**
+     * 递归函数，使用arguments.callee(args)减少对函数的耦合性
+     * @param num
+     * @returns {*}
+     */
+    function factorialVar(num) {
+        if(num<=1){
+            return 1;
+        }else{
+            return num+arguments.callee(num-1);
+        }
+    }
+    alert(factorial(10));
+    alert(factorialVar(10));
+</script>
+</html>
