@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+<div class="menu">
+    <ul id="nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="html/vivo.html">VIVO手机</a></li>
+        <li><a href="html/oppo.html">OPPO手机</a></li>
+        <li><a href="html/iphone.html">iphone</a></li>
+        <li><a href="html/aboutUs.html">关于我们</a></li>
+        <li><a href="html/contactUs.html">联系我们</a></li>
+    </ul>
+</div>
+<!--main container-->
+<div id="main-container">
+    <!-- images wrapper -->
+    <div id="images-wrapper">
+        <figure class="image-wrapper active">
+            <video autoplay>
+                <source src="video/x7.webm" >
+                您的浏览器不支持 video 标签。
+            </video>
+        </figure>
+        <figure class="image-wrapper">
+            <img src="img/index/1.png" alt="Cat 1">
+        </figure>
+        <figure class="image-wrapper">
+            <img src="img/index/2.png" alt="Cat 2">
+        </figure>
+        <figure class="image-wrapper">
+            <img src="img/index/3.png" alt="Cat 3">
+        </figure>
+        <figure class="image-wrapper">
+            <img src="img/index/4.jpeg" alt="Cat 4">
+        </figure>
+        <figure class="image-wrapper">
+            <img src="img/index/5.jpeg" alt="Cat 5">
+        </figure>
+        <figure class="image-wrapper">
+            <img src="img/index/6.jpeg" alt="Cat 6">
+        </figure>
+    </div>
+
+    <!-- controls wrapper -->
+    <div class="controls-wrapper">
+        <div class="controls">
+
+            <!-- circular line -->
+            <div id="circular-line">
+                <svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <circle id="circular-line-path" stroke-width="4" cx="19" cy="19" r="17"></circle>
+                    </g>
+                </svg>
+            </div>
+
+            <!-- straight line -->
+            <div class="straight-line"></div>
+
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script type="text/javascript" src="js/TweenMax.min.js"></script>
+<script src="js/interaction.js"></script>
+</html>

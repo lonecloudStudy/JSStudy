@@ -1,0 +1,70 @@
+.content {
+    height: 60px;
+    line-height: 70px;
+    font-size: 18px;
+    border-bottom: 2px solid #f1f1f1;
+    color: #7f8c97;
+}
+h1{
+    color: #7f8c97;
+}
+h2 {
+    color: #333;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 24px;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed rgba(141, 178, 246, 0.41);
+    margin: 35px 0;
+}
+
+.contact-us {
+    padding: 35px 70px 35px 75px;
+    display: block;
+
+}
+
+.contact-us div {
+    display: inline-block;
+    vertical-align: top;
+}
+.work{
+   margin-left: 20px;
+}
+.work-time {
+    width: 68px;
+    height: 68px;
+    margin: 0 30px 0 65px;
+    background: 0 0 no-repeat url(../img/contactus/contact-us.png);
+}
+.service{
+
+}
+.service-phone {
+    width: 68px;
+    height: 68px;
+    margin: 0 30px 0 65px;
+    background: -83px 0 no-repeat url(../img/contactus/contact-us.png);
+}
+.email{
+    margin-left: -45px;
+}
+.service-email {
+    width: 68px;
+    height: 68px;
+    margin: 0 30px 0 65px;
+    background: -168px 0 no-repeat  url(../img/contactus/contact-us.png);
+}
+.service-content{
+    width: 300px;
+    height:130px;
+    text-align: center;
+}

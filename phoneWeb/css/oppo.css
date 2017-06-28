@@ -1,0 +1,35 @@
+body{
+    background: #ececec;
+    text-align:center
+
+}
+.logo{
+    margin:0 auto;
+    vertical-align: middle;
+}
+.item {
+    background: #FFFFFF;
+    display: inline-block;
+    width: 370px;
+    height: 400px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.detail {
+    text-align: center;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20px;
+}
+.left{
+    float: left;
+
+}
+.typeName{
+    font-size: 15px;
+}
+::selection{
+    background: #2aad6f;
+    color: #FFF;
+}
