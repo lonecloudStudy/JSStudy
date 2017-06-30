@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        .news {
+            width: 270px;
+            height: 486px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul li {
+            list-style: none;
+        }
+
+        .tab li {
+            float: left;
+            display: inline-block;
+            width: 90px;
+            height: 34px;
+            border-right: 0px solid #E6E6E6;
+            border-bottom: 2px solid #ddd;
+            text-align: center;
+            line-height: 34px;
+            position: relative;
+            color: #000000;
+        }
+        ul>li.active{
+            color: #ff5d13;
+            border-bottom: 2px solid #ff5d13;
+        }
+        .news .content {
+            height: 448px;
+            padding: 0 8px;
+            overflow: hidden;
+        }
+
+        .content ul {
+            height: 448px;
+            overflow: hidden;
+        }
+
+        .content ul > li {
+            height: 39px;
+            border-top: 0px;
+            overflow: hidden;
+            border-top: 1px dotted #E6E6E6;
+        }
+        .content ul>li>span{
+            height: 39px;
+            line-height: 39px;
+            color: #393939;
+            font-size: 12px;
+            width: 40px;
+        }
+        li>a{
+            height: 39px;
+            line-height: 39px;
+            float: left;
+            width: 190px;
+            overflow: hidden;
+            font-size: 12px;
+            color: #393939;
+        }
+        .hidden{
+            display: none;
+        }
+        .show{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="news">
+    <div class="tab">
+        <ul id="tab">
+            <li class="active">最新活动</li>
+            <li>新闻广告</li>
+            <li>更新维护</li>
+        </ul>
+    </div>
+    <div class="content" id="content">
+        <ul class="show">
+            <li><a href="#">神曲-回馈好礼热情延续</a><span>[06-27]</span></li>
+            <li><a href="#">神曲-回馈好礼热情延续</a><span>[06-27]</span></li>
+            <li><a href="#">神曲-回馈好礼热情延续</a><span>[06-27]</span></li>
+            <li><a href="#">神曲-回馈好礼热情延续</a><span>[06-27]</span></li>
+        </ul>
+        <ul class="hidden">
+            <li><a href="#">神曲-回馈</a><span>[06-27]</span></li>
+            <li><a href="#">神曲-回馈好礼热情延续</a><span>[06-27]</span></li>
+            <li><a href="#">神曲-回馈好礼热情延续</a><span>[06-27]</span></li>
+            <li><a href="#">神曲-回馈好礼热情延续</a><span>[06-27]</span></li>
+        </ul>
+        <ul class="hidden">
+            <li><a href="#">神曲-回馈</a><span>[06-27]</span></li>
+            <li><a href="#">神曲-回馈</a><span>[06-27]</span></li>
+            <li><a href="#">神曲-回馈好礼热情延续</a><span>[06-27]</span></li>
+            <li><a href="#">神曲-回馈</a><span>[06-27]</span></li>
+        </ul>
+    </div>
+</div>
+</body>
+<script>
+    var lis=document.getElementById("tab").getElementsByTagName("li");//获取li
+    var uls=document.getElementById("content").getElementsByTagName("ul");//获取ul
+    for(var i=0;i<lis.length;i++){//循环给li添加事件
+        lis[i].onmouseover=function () {//给li添加鼠标覆盖事件
+            var index=0;
+            for(var j=0;j<lis.length;j++){
+                if(this.isEqualNode(lis[j])){//获取这个li是哪一个li
+                    index=j;
+                }
+                lis[j].className="";//清除li 的样式
+                uls[j].className="hidden";//清除ul 的样式
+            }
+            this.className="active";//添加li样式
+            uls[index].className="show"; //添加ul样式
+        }
+    }
+</script>
+</html>
