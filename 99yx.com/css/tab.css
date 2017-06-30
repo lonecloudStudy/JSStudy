@@ -1,0 +1,179 @@
+/******************tabControl***************************/
+.news {
+    width: 270px;
+    height: 486px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+body{
+    background: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+
+.tab li {
+    float: left;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+    border-right: 0px solid #E6E6E6;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+    line-height: 34px;
+    position: relative;
+    color: #000000;
+}
+ul>li.active{
+    color: #ff5d13;
+    border-bottom: 2px solid #ff5d13;
+}
+.news .content {
+    height: 448px;
+    padding: 0 8px;
+    overflow: hidden;
+}
+
+.content ul {
+    height: 448px;
+    overflow: hidden;
+}
+
+.content ul > li {
+    height: 39px;
+    border-top: 0px;
+    overflow: hidden;
+    border-top: 1px dotted #E6E6E6;
+}
+.content ul>li>span{
+    height: 39px;
+    line-height: 39px;
+    color: #393939;
+    font-size: 12px;
+    width: 40px;
+}
+.content ul>li>a{
+    height: 39px;
+    line-height: 39px;
+    float: left;
+    width: 190px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #393939;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+/*************************tabChange.css**********************/
+.leftContent{
+    width: 270px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+}
+.tabContent{
+    width: 270px;
+    height: 458px;
+    overflow: hidden;
+}
+.tabContent .tab{
+    border-bottom: 2px solid #ddd;
+    height: 36px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 35px;
+    position: relative;
+    border-left:5px solid #ff5d13 ;
+    margin-right: 50px;
+    width: 100%;
+}
+.gmtb{
+    float: right;
+}
+.pageTool{
+    float: left;
+    margin-right: 5px;
+}
+.currentNum{
+    color: #ff5d13;
+}
+.totalNum{
+
+}
+.preNext{
+    float: right;
+    margin-top: 5px;
+}
+
+.icon_pre{
+    background: url("../images/icon_ui.png") -35px 1px no-repeat #cccccc;
+    border: 1px solid #ccc;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    overflow: hidden;
+    float: right;
+    margin-left: -1px;
+    position: relative;
+    margin-top: 3px;
+}
+.icon_next{
+    background: url("../images/icon_ui.png") -23px 1px no-repeat #cccccc;
+    border: 1px solid #ccc;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    overflow: hidden;
+    float: right;
+    margin-left: -1px;
+    position: relative;
+    margin-top: 3px;
+}
+.d_con ul>li{
+    display: list-item;
+    height: 37px;
+    border-bottom: 1px dotted #E6E6E6;
+    overflow: hidden;
+    line-height: 37px;
+    background: url("../images/list_style.png") center left no-repeat;
+    font-size: 12px;
+}
+.d_con ul>li:hover{
+    background-color: orange;
+    color: #FFFFFF;
+}
+.d_con ul>li:hover a{
+    color: #FFFFFF;
+}
+.d_con ul>li>span{
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    width: 82px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+.d_con ul>li>a.game{
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    width: 89px;
+    text-indent: 1em;
+    display: inline-block;
+}
+.d_con ul>li>a.line{
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    width: 89px;
+    text-indent: 1em;
+    display: inline-block;
+}

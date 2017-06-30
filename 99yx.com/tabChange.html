@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/tab.css">
+</head>
+<body>
+<div class="leftContent">
+    <div class="tabContent">
+        <div class="tab">
+            <div class="content">
+                &nbsp;<span>开服列表</span>
+                <div class="gmtb">
+                    <div class="pageTool" id="pageTool">
+                        <span class="currentNum">1</span>/
+                        <span class="totalNum">2</span>
+                    </div>
+                    <div class="preNext" id="preNext">
+                        <a href="javascript:void(0)" class="icon_pre"></a>
+                        <a href="javascript:void(0)" class="icon_next"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d_con" id="d_con">
+            <ul>
+                <li>
+                    <span>06-29  14:00</span>
+                    <a href="" class="game">神仙劫</a>
+                    <a href="" class="line">双线65区</a>
+                </li>
+                <li>
+                    <span>06-29  14:00</span>
+                    <a href="" class="game">神仙劫</a>
+                    <a href="" class="line">双线65区</a>
+                </li>
+                <li>
+                    <span>06-29  14:00</span>
+                    <a href="" class="game">神仙劫</a>
+                    <a href="" class="line">双线65区</a>
+                </li>
+                <li>
+                    <span>06-29  14:00</span>
+                    <a href="" class="game">神仙劫</a>
+                    <a href="" class="line">双线65区</a>
+                </li>
+                <li>
+                    <span>06-29  14:00</span>
+                    <a href="" class="game">神仙劫</a>
+                    <a href="" class="line">双线65区</a>
+                </li>
+                <li>
+                    <span>06-29  14:00</span>
+                    <a href="" class="game">神仙劫</a>
+                    <a href="" class="line">双线65区</a>
+                </li>
+            </ul>
+            <ul class="hidden">
+                <li>
+                    <span>06-29  14:00</span>
+                    <a href="" class="game">赤月传说||</a>
+                    <a href="" class="line">双线103区</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    var index = 0;
+    var uls = document.getElementById("d_con").getElementsByTagName("ul");
+    var pageTool = document.getElementById("pageTool").getElementsByTagName("span");
+    var preNext = document.getElementById("preNext").getElementsByTagName("a");
+    /**
+     * next按钮事件
+     */
+    preNext[0].onclick = function () {
+        if (index == uls.length)return;
+        uls[index].className = "hidden";
+        uls[++index].className = "active";
+        pageTool[0].innerHTML = index + 1;
+    }
+    /**
+     * pre按钮事件
+     */
+    preNext[1].onclick = function () {
+        if (index == 0)return;
+        uls[index].className = "hidden";
+        uls[--index].className = "active";
+        pageTool[0].innerHTML = index + 1;
+    }
+</script>
+</html>
