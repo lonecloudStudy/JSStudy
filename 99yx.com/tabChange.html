@@ -69,7 +69,7 @@
 </div>
 </body>
 <script>
-    var index = 0;
+    var index = 0;//记录页面数
     var uls = document.getElementById("d_con").getElementsByTagName("ul");
     var pageTool = document.getElementById("pageTool").getElementsByTagName("span");
     var preNext = document.getElementById("preNext").getElementsByTagName("a");
@@ -77,10 +77,10 @@
      * next按钮事件
      */
     preNext[0].onclick = function () {
-        if (index == uls.length)return;
-        uls[index].className = "hidden";
-        uls[++index].className = "active";
-        pageTool[0].innerHTML = index + 1;
+        if (index == uls.length-1)return;//当其等于长度-1时候的时候不处理(因为是从0开始的)
+        uls[index].className = "hidden";//设置当前页隐藏
+        uls[++index].className = "active";//下一页显示
+        pageTool[0].innerHTML = index + 1;//更新数据
     }
     /**
      * pre按钮事件

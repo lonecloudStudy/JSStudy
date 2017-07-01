@@ -177,3 +177,56 @@ ul>li.active{
     text-indent: 1em;
     display: inline-block;
 }
+/**********************kefuBox*************************************/
+.kefuBox{
+    width: 358px;
+    height: 231px;
+    display: inline-block;
+}
+.kefuSelect{
+    border: 1px solid #E6E6E6;
+    height: 120px;
+}
+.kefuSelect .head{
+    color: #404040;
+    font-size: 16px;
+    height: 29px;
+    line-height: 29px;
+    border-bottom: 1px solid #E6E6E6;
+    text-indent: 1em;
+}
+.kefuSelect .fastRoad{
+    display: inline-block;
+    margin: 8px 0 0 13px;
+    color: #393939;
+    width: 97px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+    vertical-align: middle;
+    background: transparent url(../images/tab.png) no-repeat;
+}
+.kefuSelect .fastRoad:hover{
+    color: #ff5d13;
+}
+.kefuBox .kefuImg{
+    background: url("../images/kefu.jpg") center no-repeat;
+    height: 112px;
+    margin-top: 10px;
+    border: 1px solid #E6E6E6;
+}
+.kefuImg .kefuTel{
+    margin-left: 185px;
+    margin-top: 20px;
+    font-size: 10px;
+    color: #393939;
+}
+.kefuTel .callKefu{
+    background: url("../images/callkefu.jpg") no-repeat;
+    width: 116px;
+    height: 23px;
+    margin-top: 10px;
+}
+/***********************************selectBox.css******************/
