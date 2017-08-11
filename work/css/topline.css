@@ -1,0 +1,353 @@
+
+#top {
+    background-image: url("../images/head_bg.png");
+    height: 32px;
+    line-height: 32px;
+}
+
+#top_content {
+    font-size: 12px;
+    width: 1024px;
+    margin: 8px auto;
+    height: 16px;
+    line-height: 16px;
+}
+
+.red {
+    color: red;
+}
+
+.icon_bg {
+    background-image: url("../images/icon.png");
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.android {
+    background-position: -55px 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.iphone {
+    background-position: -70px 1px;
+}
+
+#top_left {
+    float: left;
+    height: 16px;
+    width: 400px;
+}
+
+#top_right {
+    float: right;
+    height: 16px;
+    width: 600px;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+}
+
+.top_left_ul li a:hover span.android {
+    background-position: -55px -15px;
+
+}
+
+.top_left_ul li a:hover span.iphone {
+    background-position: -70px -15px;
+}
+
+.top_right_ul li a:hover span.logo {
+    background-position: -35px -15px;
+
+}
+
+.top_right_ul li a:hover span.reg {
+    background-position: -35px -51px;
+}
+
+.top_right_ul li a:hover span.desk {
+    background-position: -0px -14px;
+}
+
+.top_right_ul li a:hover span.save {
+    background-position: -18px -14px;
+}
+
+.top_left_ul li {
+    float: left;
+    margin: 0px 3px;
+}
+
+.top_left_ul li a:hover {
+    color: #ff5d13;
+}
+
+.top_right_ul li {
+    float: right;
+    margin: 0px 3px;
+}
+
+.top_right_ul li a:hover {
+    color: #ff5d13;
+}
+
+.logo {
+    background-position: -35px 1px;
+}
+
+.reg {
+    background-position: -35px 52px;
+}
+
+.desk {
+    background-position: 0px 2px;
+}
+
+.save {
+    background-position: -18px 2px;
+}
+
+.logo {
+    float: left;
+}
+
+.topfix {
+    height: 105px;
+    background: #ffffff;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.menu {
+    height: 105px;
+    width: 1024px;
+    margin: 0px auto 0px;
+    background: #FFFFFF;
+}
+
+.menu_index {
+    float: right;
+    margin-top: 30px;
+}
+
+.menu_index_ul li a:hover span {
+    border-bottom: 2px solid red;
+}
+
+.menu_index_ul li {
+    float: left;
+    width: 80px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.menu_index_ul li span {
+    font-size: 10px;
+    font-family: Arial;
+}
+
+.menu_index_ul li a:hover {
+    color: #ff5d13;
+}
+
+.login {
+    background-image: url("../images/banners.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hotGame {
+    width: 750px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.hotDiv {
+    display: inline-block;
+    width: 717px;
+}
+
+.hot {
+    border: 1px solid white;
+    padding: 5px;
+    width: 220px;
+    display: inline-block;
+    font-size: 5px;
+    float: left;
+    margin-left: 4px;
+
+}
+
+.hot:hover {
+    border-color: #ff5d13;
+    color: #ff5d13;
+}
+
+.c input[type="button"] {
+    background: #F3F3F3;
+    border: 1px solid #D5D5D5;
+    width: 60px;
+    height: 30px;
+    float: right;
+}
+
+.hot:hover input[type="button"] {
+    background: #ff5d13;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.c:hover {
+    color: #ff5d13;
+}
+
+.c input:hover {
+    color: #ccc;
+    background-color: #ff5d13;
+}
+
+.cc {
+    color: #ff5d13;
+    font-weight: bold;
+}
+
+.menu_index_ul li a:hover span {
+    border-bottom: 2px solid #ff5d13;
+}
+
+a:hover span.reg:hover {
+    background-position: -35px -38px;
+}
+
+.reg {
+    background-position: -35px 52px;
+}
+
+a:hover span.logo:hover {
+    background-position: -35px -16px;
+}
+
+.top_right_ul li {
+    float: right;
+    margin: 0px 3px;
+}
+
+.login_panel {
+    height: 300px;
+    width: 270px;
+    background-color: #000000;
+    position: absolute;
+}
+
+.login_panel ul li {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.login_content {
+    padding-left: 35px;
+    margin: 60px 0px;
+}
+
+.span_username {
+    background: url("../images/icon_ui.png") no-repeat;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    background-position: 0 0;
+    width: 15px;
+    height: 15px;
+}
+
+.span_pwd {
+    background: url("../images/icon_ui.png") no-repeat;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    background-position: 0 -29px;
+    width: 15px;
+    height: 15px;
+}
+
+.forgetPwd {
+    position: absolute;
+    background: url(../images/icon_ui.png) no-repeat;
+    top: 2px;
+    right: 40px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    color: #969696;
+    background-position: -1px -60px;
+    text-indent: -9999px;
+
+}
+
+.icon_qq {
+    background: url(../images/icon_ui.png) no-repeat;
+    background-position: -90px -110px;
+    margin-right: 0;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+}
+
+.icon_sina {
+    background: url(../images/icon_ui.png) no-repeat;
+    background-position: -46px -110px;
+    margin-right: 0;
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+}
+
+.icon_register {
+    background: url(../images/icon_ui.png) no-repeat;
+    position: absolute;
+    right: 0;
+    background-position: -111px -90px;
+    width: 75px;
+    height: 18px;
+    color: #986400;
+    line-height: 19px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 28px;
+}
+
+.login_btn {
+    height: 32px;
+    cursor: pointer;
+    border: medium none;
+    display: block;
+    width: 86%;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font: 15px 'Microsoft JhengHei';
+    background: #FE3F3E;
+}
+
+.login_panel li .inputText {
+    height: 30px;
+    line-height: 30px;
+    width: 170px;
+    padding-left: 30px;
+    border: none;
+    border-width: 0;
+    background: rgba(255, 255, 255, 0.5);
+    color: #393939;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.06) inset;
+}
