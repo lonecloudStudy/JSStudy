@@ -1,0 +1,245 @@
+#hall {
+
+    height: 445px;
+    margin: 0 auto;
+    background-image: url(../images/hotgamebg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    background-color: #B4E2EA;
+}
+
+.hall_box {
+
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hall_hot {
+    clear: both;
+    padding-top: 30px;
+
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #222222;
+}
+
+.hall_img {
+    float: left;
+    display: inline-block;
+}
+
+.img_box {
+    margin-right: 8px;
+    margin-bottom: 27px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0, .1);
+    width: 242px;
+    border: none;
+
+}
+
+.cosplay{
+
+    color: #393939;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+    border-right: #e5e5e5;
+    border-left:#e5e5e5 ;
+}
+.cosplay:hover{
+    color: #ff5d13;
+}
+.col{
+    color: #393939;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background: white;
+    border-right: #e5e5e5;
+    border-left:#e5e5e5 ;
+}
+
+.talk{
+   margin-top: 5px;
+    padding: 0 14px;
+    color: #393939;
+    font-size: 15px;
+    background: white;
+    border-right: #e5e5e5;
+    border-left:#e5e5e5 ;
+}
+.talk:hover{
+    color: #ff5d13;
+}
+.web{float: right;
+    border-right: #e5e5e5;
+    border-left:#e5e5e5 ;}
+.enter{
+height: 31px;
+    width: 242px;
+    background:url(../images/icon_ui.png) no-repeat 0px -164px;
+    border: 1px solid #e5e5e5;
+    border-left:0 ;
+    border-right:0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 31px;
+}
+.enter:hover{
+    background: #ff5d13;
+    color: #FFFFFF;
+}
+dl{
+    background: white;
+}
+/*游戏大厅上半部分四位人物图片结束*/
+
+
+/*游戏大厅下半部分开始*/
+#choose{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.choose_left{
+    width: 242px;
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    margin-top: 12px;
+}
+.choose_right{
+    width: 736px;
+    margin-left: 20px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+}
+.choose_box{
+    height: 35px;
+    line-height: 35px;
+    background: url("../images/tab_bg.png") repeat-x;
+    font-size: 14px;
+    color: #222222;
+    text-indent: 1em;
+    border-bottom: 1px solid #e6e6e6;
+
+}
+.kinds_of{
+    font-size: 14px;
+    color: #222222;
+    margin-top: 10px;
+}
+.join1{
+    background: #FF8618;
+    color: #FFFFFF;
+}
+.kinds_box a {
+    height: 27px;
+    line-height: 27px;
+    width: 68px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    /* padding: 5px 10px 5px 10px;*/
+
+}
+.join:hover{
+    background: #FF8618;
+    color: #FFFFFF;
+
+}
+.kinds_2{
+    margin-top: 20px;
+}
+.kinds_box1 a{
+   height: 27px;
+    line-height: 27px;
+    width: 68px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+
+}
+.picture_box{
+    border: 1px solid #dddddd;
+    height: 124px;
+    width: 232px;
+    display: inline-block;
+    font-size: 5px;
+    float: left;
+    margin-left: 4px;
+}
+.picture_box:hover {
+    border-color: #ff5d13;
+    color: #ff5d13;
+}
+
+.shen{
+    margin: 12px 0 0 0 ;
+    font-size: 14px;
+
+    /* float: right;
+    padding-right: 66px;
+    padding-top: 10px;
+   */
+}
+.img{
+    margin:8px 12px 5px 8px;
+    float:left;
+}
+.feel{
+
+    height: 22px;
+    line-height: 22px;
+    display: block;
+    color: #222222;
+    /*float: right;
+    padding-right: 20px;
+  line-height: 0px;
+    font-size: 12px;
+    display: block;*/
+}
+.state{
+    height: 22px;
+    line-height: 22px;
+    color: #222222;
+}
+ .feels{
+   color:  #ff5d13;
+}
+ .pic{
+     width: 214px;
+     padding-left: 5px;
+     line-height: 22px;
+     height: 22px;
+     padding-top: 30px;
+
+ }
+ .pic_left{
+
+     width: 100px;
+     text-align: center;
+     font-size: 14px;
+     margin-right: 66px;
+     height: 24px;
+     line-height: 24px;
+     padding-left: 5px;
+
+
+ }
+.new_clothes{
+display: block;
+}
+
+/*游戏大厅下半部分end*/

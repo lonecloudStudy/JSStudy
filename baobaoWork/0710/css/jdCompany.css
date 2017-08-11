@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(231,231,231);
+}
+.content{
+    width: 1000px;
+    margin: auto;
+    padding: 22px 0 20px;
+    border: solid #dddddd;
+    border-width: 0px 1px 1px;
+    background: #FFFFFF;
+}
+.head{
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding: 2px 16px 3px;
+    background: rgb(247, 247, 247);
+    font-size: 12px;
+}
+.name{
+    width: 290px;
+    text-align: right;
+    font-size: 14px;
+    color: #999999;
+    padding-right: 10px;
+    display: inline-block;
+}
+.item{
+    padding-top: 9px;
+    height: 58px;
+    line-height: 34px;
+    position: relative;
+    font-size: 12px;
+}
+input[type="text"]{
+    width: 238px;
+    height: 16px;
+    padding: 9px 25px 9px 5px;
+    border: 1px solid #cccccc;
+    float: none;
+    font-size: 14px;
+    color: #999;
+}
+input[type="password"]{
+    width: 238px;
+    height: 16px;
+    padding: 9px 25px 9px 5px;
+    border: 1px solid #cccccc;
+    float: none;
+    font-size: 14px;
+    color: #999;
+}
+input:hover{
+    border: 1px solid #2aad6f;
+}
+select{
+    height: 34px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    padding: 6px 0;
+}
+.register{
+    width: 270px;
+    height: 36px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 800;
+    background: red;
+    border: 0px;
+}
+.blue{
+    background: #2db5ee;
+}

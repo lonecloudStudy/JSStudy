@@ -1,0 +1,152 @@
+
+a{
+    color: #4e98ed;
+    text-decoration: none;
+    font-size: 10px;
+    float: right;
+    margin-right: 40px;
+}
+.page{
+    padding-top: 200px;
+}
+li {
+    list-style: none;
+}
+.content{
+    background: url("../images/login_bg.jpg") no-repeat center 0;
+    height: 474px;
+    margin: 0 auto;
+
+}
+.logo{
+    width: 1000px;
+    height: 65px;
+    position: relative;
+    left: 0px;
+    margin: 0px 0 20px 150px;
+}
+.logo h1{
+    position: absolute;
+    margin: 20px 0 20px 0px;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 24px;
+    color: #2db5ee;
+    border-left: 1px solid #2db5ee;
+}
+.loginContent{
+    position: absolute;
+    right: 100px;
+    top: 330px;
+    width: 340px;
+    height: 410px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.tab{
+    position: relative;
+}
+.tab .tab_item{
+    float: left;
+    display: list-item;
+    text-align: center;
+    width: 170px;
+    height: 47px;
+    color: #888888;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.6);
+}
+.tab_item a{
+    color: #888888;
+}
+.tab_item:hover{
+    border-bottom: 3px solid #f4614d;
+}
+.tab_item:hover a{
+    color: #F60;
+}
+.tab .active {
+    border-bottom: 3px solid #f4614d !important;
+}
+.active a{
+    color: #F60;
+}
+.tab_item span{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    font-size: 14px;
+    padding: 11px 0 15px;
+}
+.loginInput{
+    margin-top: 40px;
+    padding: 24px 0 0 40px;
+}
+.loginInput li{
+    padding: 10px 18px 18px 0;
+    height: 42px;
+}
+.inputContent{
+    border: 1px solid #ccc;
+    height: 25px;
+    padding: 7px 0 8px;
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    width: 240px;
+}
+.inputContent:hover{
+    border: 1px solid green !important;
+}
+.inputContent i{
+    background: url("../images/login_ico.png") no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 6px;
+}
+.inputContent i.iUser{
+}
+.inputContent i.iPwd{
+    background-position: -26px 0;
+}
+input[type="text"],
+input[type="password"] {
+    height: 17px;
+    line-height: 17px;
+    padding: 4px 0 5px;
+    border: 0;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.remMe{
+    font-size: 8px;
+}
+.loginBtn{
+    text-decoration: none;
+    background: #ff4840;
+    width: 240px;
+    height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 4px;
+    display: block;
+    border: 0px;
+}
+.toQQ{
+    color: #c5c5c5;
+    font-size: 14px;
+}
+.connectImg{
+    margin: 5px;
+}
+.footer {
+    display: block;
+    padding: 45px 0 0;
+    height: 123px;
+    text-align: center;
+    font-size: 10px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //js脚本
+        //1.变量，1.数据类型,运算符，，控制流语句
+        //java中变量：数据类型 变量=变量值;
+        var name='张三';
+        age=18;//不推荐
+        var balance=100.5;
+        var flag=true;
+        var arr=new Array();
+        var b=null;
+        //java中的数据类型：byte,short,int,long,float,double,String,char,boolean
+        //typeof()可以查看这个js中变量的类型
+        //向页面输出信息：document.write(name);弹窗显示：alert();
+        //js中的数据类型：string，number,boolean,object,undefined(未定义的)
+        document.writeln('name的类型是：'+typeof(name)+'<br/>');
+        document.write('age的类型是：'+typeof(age)+'<br/>');
+        document.write('balance的类型是：'+typeof(balance)+'<br/>');
+        document.write('flag的类型是：'+typeof(flag)+'<br/>');
+        document.write('arr的类型是：'+typeof(arr)+'<br/>');
+        document.write('a的类型是：'+typeof(a)+'<br/>');
+        document.write('b的类型是：'+typeof(b)+'<br/>');
+//        age='男';
+//        document.write('age的类型是：'+typeof(age)+'<br/>');
+        //说明这个变量的类型是根据赋值之后值的类型来决定的
+        document.write(age/7+'<br/>');//注：操作的数值类型由于是number类型，所以会以小数的方式来操作
+        document.write(7=="7");//不同类型也能比较内容，所以在这里如果有字符串比较只需要==来操作了
+        document.write("<br/>");
+        document.write(7==="7");//要求内容和类型都要一致
+        document.write("<br/>");
+        //类型转换:string-->number: parseInt(),parseFloat();从左向右截取，如果遇到第一个非数字则停止截取
+        //如果第一个就是非数字则直接返回NaN (not a number):isNaN()用来判断是否是一个非数字；
+        var num1="a1.8b1c";
+        var num2=19;
+        document.write(parseFloat(num1)+num2);
+        document.write("<br/>");
+        document.write(isNaN(num2));
+        document.write("<br/>");
+        var num3=19;
+        document.write(eval("num2+num3"));
+        document.write("<br/>");
+        document.write(num2-num3);
+        //运算符:算数，关系，逻辑 同java
+        //控制语句：
+        document.write("<br/>");
+        //if的条件不一定是true或者false
+        if(num3){
+            document.write("num3>19");
+        }else{
+            document.write("num3<=19");
+        }
+        switch(name){
+            case '张三':
+                break;
+        }
+        for(var i=0;i<10;i++){
+            document.write(i);
+        }
+        while(i<20){
+            document.write("i<20");
+            i++;
+        }
+        do {
+            document.write("i<30");
+            i++;
+        }while (i<30);
+        var num4=prompt("请输入第一个数：",0);
+        document.write(num4);
+    </script>
+</head>
+<body>
+    <p>javascript:前段的脚本语言，java弱数据语言<br/>
+                ECMAScript(基础语法),DOM,BOM</p>
+
+</body>
+</html>

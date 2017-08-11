@@ -1,0 +1,474 @@
+.left_right{
+    width: 1000px;
+    margin-left: 140px;
+}
+/*中间左半部分列表开始*/
+.hot_left {
+    width: 270px;
+    height: 458px;
+    overflow: hidden;
+}
+.hot_key{
+    padding-top: 3px;
+}
+.hot_key li{
+    display: inline-block;
+}
+.hot_key li>a{
+    font-size: 10px;
+}
+.hot_key li>a:hover{
+    color: #ff5d13;
+}
+
+
+
+div {
+    display: block;
+}
+
+.box1 {
+    position: relative;
+    background: url("../images/catary_bg.png") left center no-repeat;
+    height: 36px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 35px;
+    text-indent: 1em;
+    border-bottom: 2px solid #dddddd;
+}
+
+.box2 {
+    color: #888888;
+    float: right;
+    padding-right: 6px;
+    font-size: 12px;
+}
+
+.one {
+    color: #ff5d13;
+}
+
+.first li {
+
+    height: 37px;
+    border-bottom: 1px dotted #e6e6e6;
+    overflow: hidden;
+    line-height: 37px;
+    background: url("../images/list_style.png") center left no-repeat;
+}
+
+.first li:hover {
+    background: #ff5d13;
+    border-bottom: 1px solid #ffffff;
+}
+
+.oline:hover .f1 {
+    color: #ffffff;
+}
+
+.oline:hover a {
+    color: #ffffff;
+}
+
+.f1 {
+    height: 37px;
+    line-height: 37px;
+    color: #393939;
+    font-size: 12px;
+    width: 82px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+
+/*.first li :hover a{color: #ffffff;} .f1:hover{color: #ffffff;}a:hover{color: #ffffff;}*/
+
+.game {
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    width: 89px;
+    float: left;
+    color: #ff5d13;
+    text-align: center;
+    display: inline-block;
+}
+
+.area {
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    width: 89px;
+    display: inline-block;
+}
+
+.games {
+    height: 37px;
+    line-height: 37px;
+    font-size: 12px;
+    width: 89px;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+
+/*左半部分列表结束*/
+
+/*右半部分列表开始*/
+.tj {
+    width: 110px;
+    height: 35px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 35px;
+    text-indent: 1em;
+
+}
+.hot_right{
+    margin-top: 8px;
+}
+.search {
+    background: url("../images/catary_bg.png") left center no-repeat;
+    height: 35px;
+}
+
+.input_txt {
+    height: 20px;
+    line-height: 20px;
+    padding: 5px 43px 5px 10px;
+    margin-left: 2px;
+    width: 180px;
+    float: left;
+}
+
+.hot_key {
+    width: 305px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 16px;
+    overflow: hidden;
+    float: left;
+    margin-left: 30px;
+}
+.hot_key .hot_m {
+    color: #333333;
+    font-size: 12px;
+}
+.s {
+    float: left;
+    display: inline-block;
+}
+.s ul{
+    width: 717px;
+    margin-top: 10px;
+}
+.s ul>li{
+    display: inline-block;
+
+}
+.s ul>li>a>img{
+    width: 231px;
+    height: 157px;
+}
+.searchBtn{
+    width: 34px;
+    height: 34px;
+    float: left;
+    background: #fcfcfc;
+    border: 1px solid #cccccc;
+    border-left: 0px;
+}
+.searchBtnIcon{
+    width: 15px;
+    height: 15px;
+    vertical-align:middle;
+    background: url("../images/icon_ui.png") no-repeat -50px 0;
+    position: absolute;
+    top: 9px;
+    left: 7px;
+}
+.searchLable{
+    width: 32px;
+    height: 30px;
+    position: absolute;
+}
+/*.input[type=text]{
+    border: 1px solid #e0e0e0;
+    box-shadow: 3px 3px 5px rgb(0,0,0,0.06)inset;}*/
+
+/*右半部分列表结束*/
+/*底部【所有游戏】开始*/
+.bottom{
+    width: 1000px;
+    float: left;
+
+
+}
+.bottom .bottomMenu{
+    border-bottom: 2px #ddd solid;;
+}
+
+.bottomMenu ul>li{
+    list-style: none;
+    display: inline-block;
+    width: 90px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.bottomMenu ul>li>a{
+    margin: 10px 10px 10px 0;
+
+}
+.bottomMenuClick{
+    color: #ff5d13;
+    border-bottom: 2px solid #ff5d13;
+}
+.bottomMenuClick a{
+    color: #ff5d13;
+}
+.bottomGame{
+    height: 150px;
+}
+.bottomGame ul>li{
+    width: 120px;
+    display: inline-block;
+    font-size: 10px;
+    padding: 7px 35px 7px 5px;
+}
+.bottomGame ul>li:hover{
+    background:#ff5d13;
+}
+.bottomGame ul>li:hover>a{
+    color: #FFFFFF;
+}
+.bottomGame ul>li>div.godCatch{
+    width: 15px;
+    height: 15px;
+    background: url("../images/games.png") no-repeat 0 -1344px;
+    display: inline-block;
+
+}
+
+.bottomGame ul>li>div.bigGreenGame{
+    width: 15px;
+    height: 15px;
+    background: url("../images/games.png") no-repeat;
+    display: inline-block;
+
+}
+
+.bottomGame ul>li>a{
+    margin-left: 20px;
+}
+.more_one{
+
+    font-size: 12px;
+    float: right;
+}
+
+/*底部【所有游戏】结束*/
+
+
+/*右半部分《热门游戏》开始*/
+
+.hot_list {
+    margin-top: 22px;
+    display: inline-block;
+}
+
+.tj_game {
+    width: 155px;
+    height: 35px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    line-height: 35px;
+    text-indent: 1em;
+    background: url("../images/catary_bg.png") left center no-repeat;
+}
+
+.more {
+    width: 400px;
+    height: 35px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    background: url("../images/tj_news_bg.png") left center no-repeat;
+    text-indent: 2em;
+    line-height: 35px;
+    font-size: 12px;
+
+}
+
+.all_game {
+    line-height: 35px;
+    color: #ff5d13;
+    font-size: 12px;
+    float: right;
+    margin-left: 3px;
+    margin-right: 7px;
+}
+.tj_hot{width: 717px;}
+a {
+    text-decoration: none;
+}
+/*右半部分《热门游戏》结束*/
+
+/*热门攻略、常见问题、客服界面开始*/
+#bottom_box{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    float: left;
+}
+.strategy{
+    float: left;
+    width: 300px;
+    display: inline-block;
+margin-right: 20px;
+}
+
+.question{
+    float: left;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.titile_class{
+
+    color: #404040;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #dddddd;
+
+}
+.strategy li{
+
+    height: 25px;
+    overflow: hidden;
+    font-size: 12px;
+    list-style: none;
+}
+.question li{
+    height: 25px;
+    overflow: hidden;
+    font-size: 12px;
+    list-style: none;
+}
+a{
+    color: #393939;
+    text-decoration: none;
+}
+.it:hover{
+
+    color:#ff5d13 ;
+}
+/*热门攻略、常见问题、客服界面end*/
+
+
+/*友情链接界面*/
+.linkBox{
+    margin-top: 10px;
+    border-top: 1px solid #c9c9c9;
+    padding-top: 5px;
+    display: inline-block;
+}
+.link{
+
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 8px;
+    border: 1px solid #c9c9c9;
+    padding: 0 0 5px 0;
+    clear: both;
+    float: left;
+
+}
+.link_title{
+
+background: url("../images/frignd_bg.png");
+    height: 29px;
+    line-height: 29px;
+    
+}
+.friend{
+font-size: 13px;
+    font-weight: bolder;
+    color: #393939;
+    padding-left: 10px;
+    float: left;
+}
+.link_more{
+font-size: 12px;
+
+    float: right;
+    margin-right: 6px;
+    color: #393939;
+    
+}
+.link_content{
+
+    line-height: 25px;
+    margin-top: 10px;
+}
+.link_content a{
+
+    padding: 0 5px 0 5px;
+    line-height: 24px;
+    display: inline-block;
+color: #393939;
+    font-size: 12px;
+}
+.light:hover {color: #ff5d13;}
+/*友情链接界面end*/
+
+
+
+/*关于我们界面*/
+#footer{
+   width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    clear: both;
+    text-align: center;
+
+}
+.about_box{
+    width: 1000px;
+    line-height: 22px;
+}
+.about_us{
+    font-size: 12px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about_us p{
+
+    line-height: 22px;
+    display: block;
+   color: #555555;
+    clear: both;
+
+}
+.last{
+    font-size: 12px;
+    line-height: 22px;
+    display: block;
+    color: #555555;
+    clear: both;}
+/*关于我们界面end*/

@@ -3,7 +3,7 @@ var circularLine = getEl("#circular-line");
 var straightLine = getEl(".straight-line");
 var circularLinePath = getEl("#circular-line-path");
 var controls = getEl(".controls");
-var dots = getAll(".dot");
+var dots = getAll(".dotBtn");
 var images = getAll(".image-wrapper");
 var imagesWrapper = getEl("#images-wrapper");
 
@@ -47,31 +47,31 @@ dots.forEach(function(dot, index, array){
 
 	dot.addEventListener("click", function(){
 
-		// if the dot is active, don't do function
+		// if the dotBtn is active, don't do function
 		if(!this.classList.contains("active")) {
 
-			// move the circular line position to the clicked dot position
+			// move the circular line position to the clicked dotBtn position
 			dynamicAnimProps.circularLinePos = this.offsetLeft - 12;
 
-			// active dot
+			// active dotBtn
 			var activeDot = controls.querySelector(".active");
 
 			// get the old and new position of the line
 			dynamicAnimProps.oldLinePos = activeDot.offsetLeft;
 			dynamicAnimProps.newLinePos = this.offsetLeft;
 			
-			// remove class active from old dot
+			// remove class active from old dotBtn
 			activeDot.classList.remove("active");
-			// add active to the clicked dot
+			// add active to the clicked dotBtn
 			this.classList.add("active");
 
 			// define animation direction
-			// if the selected dot has bigger index, then it's animation direction goes to the right
+			// if the selected dotBtn has bigger index, then it's animation direction goes to the right
 			if(getIndex(this, thisArray) > getIndex(activeDot, thisArray)){
 
 				dynamicAnimProps.direction = "right";
 
-				// get the width between the active dot and the clicked dot
+				// get the width between the active dotBtn and the clicked dotBtn
 				dynamicAnimProps.straightLine.width = dynamicAnimProps.newLinePos - dynamicAnimProps.oldLinePos + 2.5;
 				dynamicAnimProps.straightLine.pos = dynamicAnimProps.oldLinePos + 5;
 				dynamicAnimProps.flipcircular = false;
@@ -117,7 +117,7 @@ function animateLine(staticAnimProps, dynamicAnimProps){
 
 			// set straight line transform origin based on the animation direction
 			// if the animation direction goes to right, line animation will start from the left and vice versa
-			// set straight line width based on active-dot's position and clicked-dot's position
+			// set straight line width based on active-dotBtn's position and clicked-dotBtn's position
 			// set the straight line position
 			straightLine.style.cssText = `
 				width: ${dynamicAnimProps.straightLine.width}px;
@@ -165,7 +165,7 @@ function animateLine(staticAnimProps, dynamicAnimProps){
 				// straight line animation direction changes to the opposite
 				this.target.style.transformOrigin = dynamicAnimProps.direction;
 
-				// move circular line position to the clicked dot position
+				// move circular line position to the clicked dotBtn position
 				circularLine.style.left = dynamicAnimProps.circularLinePos + "px";
 
 			}

@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: #888888;
+    background: #eeeff1;
+}
+div{
+    display: block;
+}

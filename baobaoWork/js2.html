@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>BOM：浏览器对象模型</p>
+    <p>最上层是：window</p>
+    <script>
+        //bom常用的属性：screen,history,location
+        /*//屏幕相关信息
+        alert(window.screen.height);
+        alert(window.screen.width);
+        alert(window.screen.pixelDepth);
+        alert(window.screen.colorDepth);
+        alert(window.screen.availHeight);*/
+        //alert(window.location.hostname);//主机ip
+        //window.location.reload();//刷新
+        //通过location进行页面跳转
+        //window.location.href="../first.html";
+        //window.location.replace("first.html");
+        //历史记录操作
+        /*window.history.back();
+        window.history.forward();
+        window.history.go(2);*/
+        /*bom常用的方法*/
+        //window.alert("弹窗提示");
+        //var flag=window.confirm("确认和取消的弹窗提示");//返回真和假
+        //var result=window.prompt("弹窗进行输入");
+        //window.setInterval();
+        //window.setTimeout();
+
+        //js中的函数==>java中的方法 ：对象名.方法名();
+        //function 函数名(参数){
+        //      具体实现
+        // }
+        /*无参无返回*/
+        function test(){
+            alert('测试函数');
+        }
+        //test();
+        /*有参无返回*/
+        function test1(name){
+            alert('姓名是：'+name);
+        }
+        //test1('张三');
+        /*有参有返回*/
+        function test2(a,b){
+            return a+b;
+        }
+        //加一个广告
+        function openAdvice(){
+            //打开一个页面
+            window.open("first.html");
+        }
+        //每隔多少毫秒触发一次
+        //window.setInterval(openAdvice,1000);
+        //隔多少毫秒只触发一次
+        //window.setTimeout(openAdvice,1000);
+        //var result=test2(10,20);
+        //alert(result);
+
+    </script>
+    <div id="times">时间是：</div>
+    <script>
+        function getDate(){
+            var date=new Date();
+            document.getElementById("times").innerHTML="当前时间："+date.toLocaleString();
+            window.setTimeout(getDate,1000);
+        }
+        //window.setInterval(getDate,1000);
+        window.setTimeout(getDate,1000);
+    </script>
+
+</body>
+</html>

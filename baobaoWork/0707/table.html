@@ -1,0 +1,78 @@
+<!--用于显示新增修改保存-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<table border="1px">
+    <thead>
+    <td>编号</td>
+    <td>姓名</td>
+    <td>年龄</td>
+    <td>住址</td>
+    <td>操作</td>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>张三</td>
+        <td>18</td>
+        <td>苏州</td>
+        <td>
+            <button class="del">删除</button>
+            <button class="change">修改</button>
+        </td>
+    </tr>
+    </tbody>
+    <button id="add">新增</button>
+</table>
+</body>
+<script>
+    window.onload = function () {
+        var trs = document.getElementsByTagName("tr");
+        var delBtns = document.getElementsByClassName("del");
+        var changeBtns = document.getElementsByClassName("change");
+        var addBtn=document.getElementById("add");
+        var tbody=document.getElementsByTagName("tbody");
+        var saveBtns=document.getElementsByClassName("save");
+        /**
+         * 删除按钮的点击事件
+         */
+        for (var i = 0; i < delBtns.length; i++) {
+            var btn = delBtns[i];
+            btn.onclick = function () {
+                var tr = btn.parentNode.parentNode;
+                var tbody = tr.parentNode;
+                tbody.removeChild(tr);
+            }
+        }
+        for (var i = 0; i < changeBtns.length; i++) {
+            var btn = changeBtns[i];
+            btn.onclick = function () {
+                var tr = btn.parentNode.parentNode;
+                var tds = tr.getElementsByTagName("td");
+                for (var j = 0; j < (tds.length-1); j++) {//按钮位置
+                    var value = tds[j].innerText;
+                    tds[j].innerHTML = "<input type='text' value='" + value + "'>";
+                }
+                tds[tds.length-1].innerHTML='<button class="del">删除</button><button  onclick="saveData(this)">保存</button>'
+            }
+        }
+        addBtn.onclick=function () {
+
+        }
+
+    }
+    function saveData(target) {
+        var tr=target.parentNode.parentNode;
+        var tds=tr.getElementsByTagName("td");
+        for(var i=0;i<tds.length-1;i++){
+            var inputValue=tds[i].getElementsByTagName("input")[0].value;
+            tds[i].innerHTML=inputValue;
+        }
+    }
+</script>
+</html>

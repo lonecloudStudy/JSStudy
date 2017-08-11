@@ -1,0 +1,99 @@
+.content{
+    width: 100%;
+    padding: 100px 240px;
+    border: 1px solid #e5b7f6;
+}
+.redDiv{
+    display: inline-block;
+    width: 465px;
+    margin: 20px auto;
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    background: #ececec;
+    display: inline-block;
+    margin: 5px 5px 0px 0px;
+    border-radius: 15px;
+    color: #3c3c3c;
+    line-height: 30px;
+    text-align: center;
+}
+.blueDiv{
+    display: inline-block;
+    width: 240px;
+}
+.redBall:hover{
+    background: #e5b7f6;
+    color: #FFFFFF;
+}
+.blueBall:hover{
+    background: #0beec5;
+    color: #FFFFFF;
+}
+.choseRedBall{
+    background:red;
+    color: #FFFFFF;
+}
+.choseBlueBall{
+    background: blue;
+    color: #FFFFFF;
+}
+.randomBall{
+    width: 700px;
+}
+.randomRed{
+    display: inline-block;
+}
+.randomBlue{
+    float: right;
+    display: inline-block;
+}
+#selectResult{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #3c3c3c;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+#selectResult ul li{
+    list-style: none;
+}
+#selectResult{
+
+}
+button{
+    color: #FFFFFF;
+    border: 0px;
+    background: orange;
+    margin-left: 5px;
+}
+#confirm{
+    width: 150px;
+    height: 40px;
+    margin-left: 240px;
+}
+.operator{
+    float: right;
+    margin-right: 10px;
+}
+.countDiv{
+    font-size: 12px;
+    margin: 20px;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+#choseBall{
+    margin: auto;
+}
+li{
+    margin-top: 10px;
+}
+li>div>button{
+    float: right;
+    margin-right: 20px;
+}

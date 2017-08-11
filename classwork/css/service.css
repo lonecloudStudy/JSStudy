@@ -1,0 +1,195 @@
+#service{
+    border: 1px solid #E6E6E6;
+}
+.service_img{
+    background: url("../images/kefu_big.jpg") center no-repeat;
+    height: 317px;
+
+}
+.service_list{
+    width: 1000px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.service ul{
+    width: 700px;
+    float: left;
+}
+.service_list li{
+    width: 165px;
+    float: left;
+    text-align: center;
+    padding: 36px 0 0;
+
+}
+.service li >a{
+
+    color: #393939;
+    text-decoration: none;
+
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px ;
+    display: inline-block;
+    background: url("../images/kf_btn.png") no-repeat ;
+
+
+}
+ .forget{
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    display:block;
+}
+.icon1{
+    background-position: -145px 0;
+
+
+}
+.icon2{
+    background-position: -288px 0;
+
+}
+.icon3{
+    background-position: -433px 0;
+
+}
+.call{
+    width: 240px;
+    float: left;
+    margin: 0 20px 30px;
+    text-align: center;
+}
+.hour{
+    height: 60px;
+    line-height: 60px;
+    font-size: 28px;
+    color: #ff7e00;
+    font-style: oblique;
+}
+.hour span{
+    font-size: 16px;
+}
+.tel{
+    height: 52px;
+    line-height: 26px;
+    font-size: 18px;
+    margin: 0 0 6px;
+
+}
+.tel_one{
+    color: black;
+    font-size: 20px;
+}
+.tel_two{
+    font-size: 16px;
+}
+.tel_two:hover{
+    color: #ff5d13;
+}
+.tel_three{
+    font-size: 16px;
+}
+.tel_three:hover{
+    color: #ff5d13;
+}
+.chat{
+    width: 131px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    background: url("../images/kf_btnm.png") no-repeat;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-position: 0 -17px;
+    cursor: pointer;
+    padding: 0 0 0 19px;
+    display: block;
+}
+.service_content{
+    width: 1000px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.platform{
+    float: left;
+    width: 249px;
+}
+.number{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-indent: 3em;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: url("../images/ptqs_ico.jpg") left center no-repeat;
+
+}
+.deal{
+margin-left: 24px;
+    font-size: 12px;
+    color: #393939;
+text-decoration: none;
+}
+.deal:hover{
+    color: #ff5d13;
+}
+.dealwith{
+    margin-left: 24px;
+    font-size: 12px;
+    color: #393939;
+    text-decoration: none;
+}
+.dealwith:hover{
+    color: #ff5d13;
+}
+.deals_with{
+    margin-left: 24px;
+    font-size: 12px;
+    color: #393939;
+    text-decoration: none;
+}
+.deals_with:hover{
+    color: #ff5d13;
+}
+.number1{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-indent: 3em;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: url("../images/accountqs_ico.jpg") left center no-repeat;
+}
+.number2{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-indent: 3em;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: url("../images/payqs_ico.jpg") left center no-repeat;
+}
+.number3{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    text-indent: 3em;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: url("../images/gameqs_ico.jpg") left center no-repeat;
+
+}
+.bottom.newBottom{
+    margin-left: 150px;
+}
+.bottomMenu.newBottomMenu{
+    margin-top: 5px;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>标签：
+        <li>1.行级标签:并没有上下进行换行
+            <ul>
+                <li>&lt;span&gt;标签：例如：span前面的内容<span style="color:red;">span内容</span>span后面的内容</li>
+                <li><img src="E:\myweb\images\a.png" title="图片1" alt="图片2"></li>
+                <li>
+                    <a href="#">超链接</a><br/>
+                    1.锚链接<a href="#ff">锚链接地址</a><br/>
+                    2.页面链接<a href="second.html">超链接地址</a><br/>
+                    3.功能性链接<a href="mailto:zhangsan@163.com">联系站长</a>
+                    <a href="tel:110">报警</a><a href="sms:110">发短信</a>
+                    <br/>
+                </li>
+                <li>input表单元素</li>
+                <li>label表单元素</li>
+                <li>不常用的html标签：font,strong,em,i,b,del</li>
+            </ul>
+        </li>
+        <li>2.块级标签:单独占一行
+            <ul>
+                <li>标题：h1-h6</li>
+                <li>form</li>
+                <li>table</li>
+                <li>p段落</li>
+                <li>div</li>
+                <li>section</li>
+                <li>article</li>
+                <li>ul/ol-li</li>
+                <li>
+
+                    dl/dt/dd定义列表标签</li>
+            </ul>
+        </li>
+    </ul>
+    <form action="second.html" method="post">
+        文本框：<input type="text" name="name" placeholder="请输入姓名"/><br/>
+        密码框：<input type="password" name="name"/><br/>
+        文本域：<textarea name="name"></textarea><br/>
+        提交按钮：<input type="submit" name="name"/><br/>
+        重置按钮：<input type="reset" name="name"/><br/>
+        普通按钮：<input type="button" name="name"/><br/>
+        图片按钮：<input src="图片" type="image" name="name"/><br/>
+        隐藏域：<input type="hidden" name="name"/><br/>
+        文件域：<input type="file" name="name"/><br/>
+        单选按钮：<input type="radio" name="name"/><br/>
+        多选按钮：<input type="checkbox" name="name"/><br/>
+        下拉列表：<select>
+                    <optgroup label="A">
+                        <option>a</option>
+                        <option>a</option>
+                        <option>a</option>
+                    </optgroup>
+                </select><br/>
+        日期：<input type="date"><br/>
+        邮箱：<input type="email"><br/>
+        颜色选择：<input type="color"><br/>
+    </form>
+    <table border="1" width="400px" align="center">
+        <caption>标题</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">编号</th>
+                <th rowspan="2">姓名</th>
+                <th rowspan="2">年龄</th>
+                <th colspan="2">选填</th>
+
+            </tr>
+            <tr>
+
+                <th>住址</th>
+                <th>联系方式</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>张三</td>
+            <td>19</td>
+            <td>苏州</td>
+            <td>110</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">总人数：1人</td>
+            </tr>
+        </tfoot>
+    </table>
+    a<br/>
+    a<br/>
+    a<br/>
+    a<br/>
+    a<br/>
+    a<br/>
+    a<br/>
+    a<br/>
+    a<br/>
+    a<br/>
+    <a name="ff">锚点</a>
+    <h2>注意:绝对路径/相对路径 ： ../文件夹目录</h2>
+</body>
+</html>

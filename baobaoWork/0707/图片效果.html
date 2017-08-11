@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片切换效果</title>
+    <style>
+        ul {
+            padding: 0px;
+        }
+
+        li {
+            height: 8px;
+            width: 60px;
+            float: left;
+            margin: 0px 3px;
+            list-style: none;
+        }
+
+        .gray {
+            background-color: #e7e7e7;
+        }
+
+        .lightblue {
+            background-color: #28b8ed;
+        }
+
+        #div2 {
+            width: 1920px;
+            height: 300px;
+            position: relative;
+        }
+
+        #div3 {
+            width: 533px;
+            height: 50px;
+            line-height: 50px;
+            position: absolute;
+            bottom: 0px;
+            left: 150px;
+            padding-left: 333px;
+        }
+    </style>
+    <script>
+
+        function changeImg() {
+            //图片变化
+            index++;
+            if (index == 5) {
+                index = 1;
+            }
+            document.getElementById("img_banner").src = "images/first_" + index + ".jpg";
+            //li的样式发生变化
+            var lis = document.getElementsByTagName("li");
+            for (var i = 0; i < lis.length; i++) {
+                lis[i].className = "gray";
+            }
+            lis[index - 1].className = "lightblue";
+        }
+        var intervalId = setInterval(changeImg, 2000);
+        function stop_play() {
+            clearInterval(intervalId);
+            intervalId = null;
+        }
+        function play() {
+            if (intervalId == null) {
+                intervalId = setInterval(changeImg, 2000);
+            }
+
+        }
+        function showImg(i) {
+            //图片变化
+            index = i;
+            document.getElementById("img_banner").src = "images/first_" + index + ".jpg";
+            //li的样式发生变化
+            var lis = document.getElementsByTagName("li");
+            for (var i = 0; i < lis.length; i++) {
+                lis[i].className = "gray";
+            }
+            lis[index - 1].className = "lightblue";
+        }
+
+    </script>
+</head>
+<body>
+<hr/>
+
+<div id="div2" onmouseover="stop_play()" onmouseout="play()">
+    <img id="img_banner" src="images/first_1.jpg" height="300" width="1920"/>
+
+    <div id="div3">
+        <ul>
+            <li class="lightblue" onclick="showImg(1)">&nbsp;</li>
+            <li class="gray" onclick="showImg(2)">&nbsp;</li>
+            <li class="gray" onclick="showImg(3)">&nbsp;</li>
+            <li class="gray" onclick="showImg(4)">&nbsp;</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模拟彩票</title>
+    <link rel="stylesheet" href="css/caipiao.css?ver=2">
+</head>
+<body>
+<div class="content">
+    <div class="redDiv">
+        <div class="ball redBall">1</div>
+        <div class="ball redBall">2</div>
+        <div class="ball redBall">3</div>
+        <div class="ball redBall">4</div>
+        <div class="ball redBall">5</div>
+        <div class="ball redBall">6</div>
+        <div class="ball redBall">7</div>
+        <div class="ball redBall">8</div>
+        <div class="ball redBall">9</div>
+        <div class="ball redBall">10</div>
+        <div class="ball redBall">11</div>
+        <div class="ball redBall">12</div>
+        <div class="ball redBall">13</div>
+        <div class="ball redBall">14</div>
+        <div class="ball redBall">15</div>
+        <div class="ball redBall">16</div>
+        <div class="ball redBall">17</div>
+        <div class="ball redBall">18</div>
+        <div class="ball redBall">19</div>
+        <div class="ball redBall">20</div>
+        <div class="ball redBall">21</div>
+        <div class="ball redBall">22</div>
+        <div class="ball redBall">23</div>
+        <div class="ball redBall">24</div>
+        <div class="ball redBall">25</div>
+        <div class="ball redBall">26</div>
+        <div class="ball redBall">27</div>
+        <div class="ball redBall">28</div>
+        <div class="ball redBall">29</div>
+        <div class="ball redBall">30</div>
+        <div class="ball redBall">31</div>
+        <div class="ball redBall">32</div>
+        <div class="ball redBall">33</div>
+    </div>
+    <div class="blueDiv">
+        <div class="ball blueBall">1</div>
+        <div class="ball blueBall">2</div>
+        <div class="ball blueBall">3</div>
+        <div class="ball blueBall">4</div>
+        <div class="ball blueBall">5</div>
+        <div class="ball blueBall">6</div>
+        <div class="ball blueBall">7</div>
+        <div class="ball blueBall">8</div>
+        <div class="ball blueBall">9</div>
+        <div class="ball blueBall">10</div>
+        <div class="ball blueBall">11</div>
+        <div class="ball blueBall">12</div>
+        <div class="ball blueBall">13</div>
+        <div class="ball blueBall">14</div>
+        <div class="ball blueBall">15</div>
+        <div class="ball blueBall">16</div>
+    </div>
+    <div class="randomBall">
+        <div class="randomRed">
+            <select name="" id="redBallCount">
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+            <button id="redRandomBtn">随机生成</button>
+        </div>
+        <div class="randomBlue">
+            <select name="" id="blueBallCount">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+            </select>
+            <button id="blueRandomBtn">随机生成</button>
+        </div>
+    </div>
+    <div id="choseBall">
+        <div class="countDiv">
+            ------------------------------您当前选中了<span id="redCount" class="red">0</span>个红球，<span id="blueCount"class="blue">0</span>个蓝球，注数：<span id="countNum" class="red">0</span>注&nbsp;金额：<span id="money"class="red">0</span>元---------------------------
+        </div>
+        <button id="confirm">确定选球</button>
+        <div id="selectResult">
+            <ul id="data">
+
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/caipiao.js?ver=2"></script>
+</html>

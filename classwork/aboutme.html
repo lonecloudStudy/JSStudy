@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户中心</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/member.css?v1">
+    <link rel="stylesheet" href="css/topline.css">
+</head>
+<body>
+<div id="top">
+    <div id="top_content">
+        <!--div+ul/ol+li-->
+        <div id="top_left">
+            <ul class="top_left_ul">
+                <li><span class="red">99yx.com网页游戏</span></li>
+                <li><a href="#"><span class="icon_bg android">&nbsp;</span>安卓游戏</a></li>
+                <li><a href="#"><span class="icon_bg iphone">&nbsp;</span>苹果游戏</a></li>
+            </ul>
+        </div>
+        <div id="top_right">
+            <ul class="top_right_ul">
+                <li><a href="#"><span class="icon_bg save ">&nbsp;</span>加入收藏</a></li>
+                <li><a href="#"><span class="icon_bg desk">&nbsp;</span>放到桌面</a></li>
+                <li><a href="#"><span class="icon_bg reg">&nbsp;</span>注册</a></li>
+                <li><a href="#"><span class="icon_bg logo">&nbsp;</span>登录</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="topfix">
+    <div class="menu">
+        <div class="logo">
+            <img src="images/logo.png" height="71" width="201"/>
+        </div>
+        <div class="menu_index">
+            <ul class="menu_index_ul">
+                <li><a href="head.html"><b>首页</b><br/><span>HOME</span></a></li>
+                <li><a href="gameshall.html"><b>游戏大厅</b><br/><span>GAMES</span></a></li>
+                <li><a href="#"><b>用户管理</b><br/><span>MASTER</span></a></li>
+                <li><a href="login.html"><b>用户中心</b><br/><span>MEMBER</span></a></li>
+                <li><a href="service.html"><b>客服中心</b><br/><span>SERVICE</span></a></li>
+                <li><a href="#"><b>注销</b><br/><span>CANCEL</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="header-box">
+        <div class="head f-left">
+            <div class="h-l-t">左上</div>
+            <div class="h-r-t">右上</div>
+            <div class="h-l-b">左下</div>
+            <div class="h-r-b">右下</div>
+            <img src="images/avatar.gif" width="142px" height="142px">
+            <div class="xg-box" style="display: none;">透明层，无内容</div>
+            <a href="#" class="tm-a" style="display: none;">修改</a>
+        </div>
+        <div class="f-left ren-m">
+            <p></p>
+            <h4 class="name dis">欢迎您</h4>
+            <div id="registTime">上次登录时间：2017-07-12 19:26:02</div>
+        </div>
+        <div class="f-right manage">
+            <div class="ma-list">
+                <div class="ma-1 ma ma_on">
+                    <i class="duihao"></i>
+                </div>
+                <div class="ma-list-desc"><b>密保邮箱</b>：<b><font color="green">已设置</font></b> 用于忘记密码或帐号被盗时快速重置密码</div>
+            </div>
+            <div class="ma-list">
+                <div class="ma-2 ma  ">
+                    <i class="paint"></i>
+                </div>
+                <div class="ma-list-desc"><b>手机号码</b>：<b><font color="red">未设置</font></b> <a
+                        href="http://www.99yx.com/member/change_profile" class="cbtn cbtn_com_gray">设置号码</a></div>
+            </div>
+            <div class="ma-list">
+                <div class="ma-3 ma  ma_on">
+                    <i class="duihao"></i>
+                </div>
+                <div class="ma-list-desc"><b>证件信息</b>：<b><font color="green">已设置</font></b></div>
+            </div>
+        </div>
+    </div>
+    <div class="webContent">
+        <div class="title">
+            <h2><i class="manage-h2"></i>修改资料</h2>
+        </div>
+        <div class="leftbar f-left">
+            <ul id="leftUl">
+                <li><a href="javascript:void(0)" class="cur" onclick="changeBar(1)">修改资料</a></li>
+                <li><a href="javascript:void(0)" onclick="changeBar(2)">邮箱绑定</a></li>
+                <li><a href="javascript:void(0)" onclick="changeBar(3)">修改密码</a></li>
+                <li class="nobord"><a href="javascript:void(0)">退出登录</a></li>
+            </ul>
+        </div>
+        <div class="sidebar f-right">
+            <div class="tj_head">
+                <div class="changeCon">修改资料</div>
+            </div>
+            <div id="change">
+            <div id="changeInfo" >
+                <form action="#">
+                    <div class="input_div">
+                        <div class="line">
+                            <div class="left">帐号：</div>
+                            <div class="mid"><span>lonecloud</span></div>
+                            <div class="right"></div>
+                        </div>
+                        <div class="line">
+                            <div class="left">手机：</div>
+                            <div class="mid">
+                                <input type="text" name="mobile" id="mobile" value="" class="input_forie6">
+                            </div>
+                            <div class="onShow" id="mobileTip">请输入电话号码，可以为空</div>
+                        </div>
+                        <div class="line">
+                            <div class="left">昵称：</div>
+                            <div class="mid"><input type="text" name="nickname" id="nickname" value=""
+                                                    class="input_forie6"></div>
+                            <div class="onShow" id="nicknameTip">用于论坛交流用,可以为空</div>
+                        </div>
+                        <div class="line">
+                            <div class="left">性别：</div>
+                            <div class="mid">
+                                <input type="radio" name="gender" value="1"> 男
+                                <input name="gender" type="radio" value="2"> 女
+                                <input name="gender" type="radio" value="0"> 保密
+                            </div>
+                            <div class="right" id="sexTip"></div>
+                        </div>
+                        <div class="line">
+                            <div class="left">QQ：</div>
+                            <div class="mid">
+                                <input type="text" name="qq" id="qq" value="" class="input_forie6">
+                            </div>
+                            <div class="onShow" id="qqTip">请输入QQ号码，可以为空</div>
+                        </div>
+                        <div class="line">
+                            <div class="left">联系地址：</div>
+                            <div class="mid">
+                                <input type="text" name="addr" id="addr" value="" class="input_forie6">
+                            </div>
+                            <div class="onShow" id="addrTip">请输入联系地址，可以为空</div>
+                        </div>
+                        <div class="line">
+                            <div class="left">&nbsp;</div>
+                            <div class="mid">
+                                <input type="submit" name="submit" value="确认修改" class="btn btn-send dis" id="submit">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="changeEmail" class="hidden">
+                <div class="board board_yes" style="width:300px;">
+                    <span class="user_center_icon yes"></span>
+                    <span class="board_item">绑定邮箱：8389****@qq.com</span>
+                </div>
+            </div>
+            <div id="changePwd" class="hidden">
+                <form id="changePass" action="http://www.99yx.com/member/mem_uploadpwd" method="POST">
+                    <div class="line">
+                        <div class="left">原密码：</div>
+                        <div class="mid"><input type="password" name="oldpwd" id="passwd1" class="input_forie6"></div>
+                        <div class="onShow" id="passwd1Tip">请输入密码</div>
+                    </div>
+                    <div class="line">
+                        <div class="left">新密码：</div>
+                        <div class="mid"><input type="password" name="repasswd" id="repasswd" class="input_forie6">
+                        </div>
+                        <div class="onShow" id="repasswdTip">请输入密码</div>
+                    </div>
+                    <div class="line">
+                        <div class="left">确认新密码：</div>
+                        <div class="mid"><input type="password" name="confirm" id="confirm" class="input_forie6"></div>
+                        <div class="onShow" id="confirmTip">请输入确认密码</div>
+                    </div>
+                    <div class="line">
+                        <div class="left">&nbsp;</div>
+                        <div class="mid"><input class="btn btn-send dis" type="submit" value="确定"></div>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/member.js"></script>
+</body>
+</html>

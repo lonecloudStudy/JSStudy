@@ -1,0 +1,282 @@
+.content {
+
+}
+
+.header-box {
+    background: #fafafc;
+    height: 142px;
+    width: 932px;
+    margin: 54px auto 11px;
+    padding: 20px 34px;
+}
+
+.f-right {
+    float: right;
+}
+
+.f-left {
+    float: left;
+}
+
+.header-box {
+    background: #fafafc;
+    height: 142px;
+    width: 932px;
+    margin: 54px auto 11px;
+    padding: 20px 34px;
+}
+
+.h-l-t, .h-r-t, .h-l-b, .h-r-b {
+    background: url(../images/head.png) no-repeat;
+    position: absolute;
+    z-index: 2;
+    width: 72px;
+    height: 72px;
+    text-indent: -999999px
+}
+
+.h-l-t {
+    background-position: 0 0;
+    left: 0;
+    top: 0
+}
+
+.h-r-t {
+    background-position: -72px 0;
+    right: 0;
+    top: 0
+}
+
+.h-l-b {
+    background-position: 0 -72px;
+    left: 0;
+    bottom: 0
+}
+
+.h-r-b {
+    background-position: -72px -72px;
+    right: 0;
+    bottom: 0
+}
+
+.head {
+    width: 144px;
+    height: 144px;
+    position: relative;
+    z-index: 1;
+    margin-right: 20px;
+}
+
+.ren-m {
+    padding-top: 20px;
+    width: 280px;
+}
+
+.ren-m h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #565a5d;
+    margin-right: 15px
+}
+
+#registTime {
+    color: #909090;
+}
+
+.manage {
+    width: 480px;
+    height: 34px;
+    padding-top: 10px
+}
+
+.manage .ma-list {
+    width: 480px;
+    height: 46px;
+    background: none;
+}
+
+.manage .ma-list .ma-list-desc {
+    background: none;
+    padding-top: 6px;
+}
+
+.manage .ma {
+    background: url(../images/usericon.png) no-repeat;
+    width: 34px;
+    height: 34px;
+    position: relative;
+    float: left;
+    margin: 0 10px;
+    display: inline
+}
+
+.manage .ma-1 {
+    background-position: -40px -53px;
+    cursor: pointer
+}
+
+.manage .ma-2 {
+    background-position: -83px -53px;
+    cursor: pointer
+}
+
+.manage .ma-3 {
+    background-position: -124px -53px;
+    cursor: pointer
+}
+
+.manage i {
+    display: block;
+    background: url(../images/icon-24.png) no-repeat;
+    position: absolute;
+}
+
+.manage i.duihao {
+    width: 14px;
+    height: 14px;
+    background-position: 0 -428px;
+    right: 0;
+    bottom: -5px
+}
+
+.manage i.paint {
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    background-position: -21px -431px;
+    right: 3px;
+    bottom: -2px
+}
+
+.webContent {
+    width: 1000px;
+    margin: 0 auto;
+    background: #fefefe;
+    padding-bottom: 45px;
+    height: 500px;
+}
+
+.title {
+    height: 24px;
+    line-height: 24px;
+    padding: 20px 0 20px 34px
+}
+
+h2 {
+    font-size: 16px;
+    color: #535353;
+    font-weight: 500;
+    text-align: left;
+    line-height: inherit;
+}
+
+.manage-h2 {
+    width: 22px;
+    height: 24px;
+    margin-right: 10px;
+    background: url(../images/usericon.png) no-repeat;
+    display: inline-block;
+}
+
+.leftbar {
+    width: 270px;
+    border: 1px silver;
+}
+
+.leftbar li {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    text-align: center;
+}
+
+.leftbar li:hover {
+    background: #FF6600;
+    color: #FFFFFF;
+}
+
+li:hover > a {
+    color: #FFFFFF;
+}
+
+.sidebar {
+    width: 700px;
+    padding-left: 30px;
+}
+
+.changeCon {
+    height: 24px;
+    line-height: 24px;
+    padding: 20px 0 20px 34px;
+    color: #000000;
+}
+
+.line {
+    margin: 5px 0;
+    padding: 5px 0;
+    overflow: hidden;
+    height: 30px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="password"] {
+    height: 17px;
+    width: 230px;
+    line-height: 17px;
+    padding: 4px 0 5px;
+    border: 0;
+    vertical-align: middle;
+    font-size: 15px;
+    border: 1px solid #ececec;
+}
+
+.btn-send:hover {
+    background: #fd8073;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-send {
+    padding: 0 25px;
+    height: 35px;
+    background: #e54e53;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #fff;
+    border: 0px;
+}
+.board_yes {
+    height: 50px;
+    line-height: 50px;
+    width: 90%;
+    border-color: #C1E25E;
+    background: #F5FFDB;
+}
+.user_center_icon{
+    margin-top: 5px;
+    background: url("../images/items.png") -18px 3px;
+    display: inline-block;
+    height: 36px;
+    width: 38px;
+    vertical-align: middle;
+    float: left;
+}
+
+.line .left {
+    float: left;
+    width: 12%;
+    text-align: right;
+    line-height: 26px;
+}
+.line .mid {
+    width: 35%;
+    float: left;
+    text-align: left;
+}
+.hidden{
+    display: none;
+}

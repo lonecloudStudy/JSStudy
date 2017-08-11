@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .course{width: 244px; border: 1px solid gainsboro;}
+        *{padding: 0px; margin: 0px;}
+        li{list-style: none; float: left; width:79px;
+            border-right: 1px solid gray; height: 20px; text-align: center;
+        line-height: 20px;}
+        .active{background-color: silver;}
+        .course .content{width: 100%;height: 300px;}
+        .hide{display: none;}
+         a{list-style: none;}
+
+    </style>
+    <script>
+        function changePanel(a,i){
+            var lis=document.getElementById("course").getElementsByTagName("li");
+            for(var j=0;j<lis.length;j++){
+                lis[j].className="";
+            }
+            var divs=document.getElementById("course").getElementsByTagName("div");
+            for(var k=1;k<divs.length;k++){
+                divs[k].className="hide content";
+            }
+            document.getElementById("div"+i).className="active content";
+
+            a.className="active";
+        }
+    </script>
+</head>
+<body>
+    <div id="course" class="course">
+        <ul >
+            <li class="active" onmouseover="changePanel(this,1)">最新活动</li>
+            <li onmouseover="changePanel(this,2)">新闻公告</li>
+            <li onmouseover="changePanel(this,3)">更新维护</li>
+        </ul>
+        <div style="clear: both;"></div>
+        <div id="div1" class="active content">
+            <a href="">神曲-回馈好礼热情延续</a>
+                <p>[06-27]</p>
+        </div>
+        <div id="div2" class="hide content">
+            <a href="">烈火封神-7月5日合区公告</a>
+            <p>[06-28]</p>
+        </div>
+
+        <div id="div3" class="hide content">
+            <a href="">赤月传说2-6月29日临时维护公告</a>
+                <p>[06-28]</p>
+        </div>
+    </div>
+</body>
+</html>

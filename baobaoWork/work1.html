@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var num1=prompt("请输入第一个数：",0);
+        alert(typeof(num1));
+        var action=prompt("请输入操作符");
+        var num2=prompt("请输入第2个数：",0);
+        switch(action){
+            case '+':
+                document.write(parseInt(num1)+parseInt(num2));
+                break;
+            case '-':
+                document.write(num1-num2);
+                break;
+            case '*':
+                document.write(num1*num2);
+                break;
+            case '/':
+                document.write(num1/num2);
+                break;
+            default:
+                alert('操作符输入错误！');
+        }
+        //document.write('result:'+eval(num1+action+num2));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/topline.css">
+    <link rel="stylesheet" href="css/midum.css">
+    <link rel="stylesheet" href="css/tab.css">
+    <link rel="stylesheet" href="css/gameshall.css">
+    <link rel="stylesheet" href="css/service.css">
+    <style>
+        .img1{
+            background: url("images/first_1.jpg") center no-repeat;
+        }
+        .img2{
+            background: url("images/first_2.jpg") center no-repeat;
+        }
+        .img3{
+            background: url("images/first_3.jpg")center no-repeat ;
+        }
+        .img4{
+            background: url("images/first_4.jpg")center no-repeat;
+        }
+
+        #div3 ul {
+            padding: 0px;
+        }
+
+        #div3 li {
+            height: 8px;
+            width: 60px;
+            float: left;
+            margin: 0px 3px;
+            list-style: none;
+        }
+
+        .gray {
+            background-color: #e7e7e7;
+        }
+
+        .lightblue {
+            background-color: #28b8ed;
+        }
+
+        #div3 {
+            width: 533px;
+            height: 50px;
+            line-height: 50px;
+            bottom: 20px;
+            left: 150px;
+            padding-left: 40%;
+            padding-top: 280px;
+        }
+    </style>
+</head>
+<body>
+<div id="top">
+    <div id="top_content">
+        <!--div+ul/ol+li-->
+        <div id="top_left">
+            <ul class="top_left_ul">
+                <li><span class="red">99yx.com网页游戏</span></li>
+                <li><a href="#"><span class="icon_bg android">&nbsp;</span>安卓游戏</a></li>
+                <li><a href="#"><span class="icon_bg iphone">&nbsp;</span>苹果游戏</a></li>
+            </ul>
+        </div>
+        <div id="top_right">
+            <ul class="top_right_ul">
+                <li><a href="#"><span class="icon_bg save ">&nbsp;</span>加入收藏</a></li>
+                <li><a href="#"><span class="icon_bg desk">&nbsp;</span>放到桌面</a></li>
+                <li><a href="#"><span class="icon_bg reg">&nbsp;</span>注册</a></li>
+                <li><a href="#"><span class="icon_bg logo">&nbsp;</span>登录</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="menu" >
+    <div class="logo">
+        <img src="images/logo.png" height="71" width="201"/>
+    </div>
+    <div class="menu_index">
+        <ul class="menu_index_ul">
+            <li><a href="head.html"><b>首页</b><br/><span>HOME</span></a></li>
+            <li><a href="gameshall.html"><b>游戏大厅</b><br/><span>GAMES</span></a></li>
+            <li><a href="#"><b>用户管理</b><br/><span>MASTER</span></a></li>
+            <li><a href="login.html"><b>用户中心</b><br/><span>MEMBER</span></a></li>
+            <li><a href="service.html"><b>客服中心</b><br/><span>SERVICE</span></a></li>
+            <li><a href="#"><b>注销</b><br/><span>CANCEL</span></a></li>
+        </ul>
+    </div>
+</div>
+<div style="clear: both;"></div>
+<div class="login" id="img_banner" onmouseover="stop_play()" onmouseout="play()">
+    <div style="width:1024px;margin: 0px auto;">
+        <div class="login_panel">
+            <div class="login_content">
+                <ul>
+                    <li>
+                        <i class="span_username"></i>
+                        <input type="text" class="inputText">
+                    </li>
+                    <li>
+                        <i class="span_pwd"></i>
+                        <input type="text" class="inputText">
+                    </li>
+                    <li><label for="autoLogin" style="font-size: 10px;color: #FFFFFF">
+                        <input type="checkbox" name="" id="autoLogin">
+                        自动登录
+                    </label>
+                        <a href="#" class="forgetPwd">找回密码</a>
+                    </li>
+                    <li>
+                        <button class="login_btn">登录</button>
+                    </li>
+                    <li>
+                        <a href="#" class="icon_qq"></a>
+                        <a href="#" class="icon_sina"></a>
+                        <a href="./register.html" class="icon_register">快速注册 > </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div id="div3">
+        <ul id="indexUl">
+            <li class="lightblue" onclick="showImg(1)">&nbsp;</li>
+            <li class="gray" onclick="showImg(2)">&nbsp;</li>
+            <li class="gray" onclick="showImg(3)">&nbsp;</li>
+            <li class="gray" onclick="showImg(4)">&nbsp;</li>
+        </ul>
+    </div>
+</div>
+<div class="left_right">
+    <!--中间左半部分列表开始-->
+    <div class="left">
+        <div class="hot_left">
+            <div class="box1">
+                <span class="list">开服列表</span>
+
+                <div class="box2">
+
+                    <strong class="one">1</strong>/
+
+                    <span class="two">2</span>
+
+                </div>
+            </div>
+            <div class="box3">
+
+                <ul class="first">
+                    <li class="oline">
+                        <span class="f1">07-01  14:00</span>
+                        <a href="#" class="game">烈火封神</a>
+                        <a href="#" class="area">双线14区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">07-01  14:00</span>
+                        <a href="#" class="game">乾坤战纪</a>
+                        <a href="#" class="area">双线52区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">07-01  14:00</span>
+                        <a href="#" class="game">天地诸神</a>
+                        <a href="#" class="area">双线60区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">07-01  14:00</span>
+                        <a href="#" class="game">青云志</a>
+                        <a href="#" class="area">双线238区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">07-01  14:00</span>
+                        <a href="#" class="game">神仙劫</a>
+                        <a href="#" class="area">双线67区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">06-30  14:00</span>
+                        <a href="#" class="games">神仙劫</a>
+                        <a href="#" class="area">双线66区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">06-30  14:00</span>
+                        <a href="#" class="games">乾坤战纪</a>
+                        <a href="#" class="area">双线51区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">06-29  14:00</span>
+                        <a href="#" class="games">神曲</a>
+                        <a href="#" class="area">双线591区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">07-01  14:00</span>
+                        <a href="#" class="games">烈火封神</a>
+                        <a href="#" class="area">双线14区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">07-01  14:00</span>
+                        <a href="#" class="games">烈火封神</a>
+                        <a href="#" class="area">双线14区</a>
+
+                    </li>
+                    <li class="oline">
+                        <span class="f1">07-01  14:00</span>
+                        <a href="#" class="games">烈火封神</a>
+                        <a href="#" class="area">双线14区</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!--中间左半部分列表结束-->
+
+        <!--中间左下半部分列表开始-->
+        <div class="news">
+            <div class="tab">
+                <ul id="tab">
+                    <li class="active">最新活动</li>
+                    <li>新闻广告</li>
+                    <li>更新维护</li>
+                </ul>
+            </div>
+            <div class="content" id="content">
+                <ul class="show">
+                    <li><a href="#">大天使之剑-暑假投资活动</a><span>[06-27]</span></li>
+                    <li><a href="#">天地诸神-版本活动</a><span>[06-27]</span></li>
+                    <li><a href="#">乾坤战纪-7月13日-7月19日活动公告</a><span>[06-27]</span></li>
+                    <li><a href="#">霸王之心-精彩活动</a><span>[06-27]</span></li>
+                    <li><a href="#">神曲-坐骑活动嘉年华活动</a><span>[06-27]</span></li>
+                    <li><a href="#">大天使之剑-每日充值活动</a><span>[06-27]</span></li>
+                    <li><a href="#">神仙劫-创世神壕称号活动</a><span>[06-27]</span></li>
+                    <li><a href="#">霸王之心-充值返利活动</a><span>[06-27]</span></li>
+                    <li><a href="#">女神联盟-单服大亨 风暴领主降临</a><span>[06-27]</span></li>
+                    <li><a href="#">绝世唐门-开服活动</a><span>[06-27]</span></li>
+                    <li><a href="#">《女神联盟》海盗船 全新体验之使徒法典</a><span>[06-27]</span></li>
+                </ul>
+                <ul class="hidden">
+                    <li><a href="#">神仙劫-7月14日合区公告</a><span>[06-28]</span></li>
+                    <li><a href="#">赤月传说2-7月19日合区公告</a><span>[06-28]</span></li>
+                    <li><a href="#">烈火封神-7月18日合服公告</a><span>[06-28]</span></li>
+                    <li><a href="#">天地诸神-7月17日合区公告</a><span>[06-28]</span></li>
+                    <li><a href="#">乾坤战纪-7月17日合区公告</a><span>[06-28]</span></li>
+                    <li><a href="#">烈火封神-7月7日合服公告</a><span>[06-28]</span></li>
+                    <li><a href="#">乾坤战纪-7月10日合区公告</a><span>[06-28]</span></li>
+                    <li><a href="#">青云志-7月10日合区公告</a><span>[06-28]</span></li>
+                    <li><a href="#">神仙劫-7月11日合区公告</a><span>[06-28]</span></li>
+                    <li><a href="#">青云志-7月17日合区公告</a><span>[06-28]</span></li>
+                    <li><a href="#">乾坤战纪-7月3日合区公告</a><span>[06-28]</span></li>
+
+                </ul>
+                <ul class="hidden">
+                    <li><a href="#">霸王之心-7月12日更新公告</a><span>[06-30]</span></li>
+                    <li><a href="#">街机三国-7月12日更新公告</a><span>[06-30]</span></li>
+                    <li><a href="#">武炼巅峰-7月13日维护公告</a><span>[06-30]</span></li>
+                    <li><a href="#">烈火封神-7月11日更新公告</a><span>[06-30]</span></li>
+                    <li><a href="#">绝世唐门- 7月7日停机维护更新公告</a><span>[06-30]</span></li>
+                    <li><a href="#">大青云-7月6日全区维护公告</a><span>[06-30]</span></li>
+                    <li><a href="#">武炼巅峰-7月6日维护公告</a><span>[06-30]</span></li>
+                    <li><a href="#">大天使之剑-7月5日维护公告</a><span>[06-30]</span></li>
+                    <li><a href="#">烈火封神-7月4日更新公告</a><span>[06-30]</span></li>
+                    <li><a href="#">剑雨江湖-7月3日维护公告</a><span>[06-30]</span></li>
+                    <li><a href="#">绝世唐门-7月14日停机维护更新公告</a><span>[06-30]</span></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--中间左下半部分列表结束-->
+
+    <div class="right">
+        <!--中间右半部分开始-->
+        <div class="hot_right">
+            <div class="search">
+                <div class="tj">推荐游戏</div>
+                <div class="sm">
+                    <input class="input_txt" type="text" name="keyword" placeholder="请输入搜索关键词">
+                    <label for="searchBtn" class="searchLable">
+                        <button class="searchBtn" id="searchBtn">
+                            <em class="searchBtnIcon"></em>
+                        </button>
+
+                    </label>
+                    <ul class="hot_key">
+                        <li class="hot_m">热门搜索：</li>
+                        <li><a href="#">神仙劫</a></li>
+                        <li><a href="#">大青云</a></li>
+                        <li><a href="#">乾坤战纪</a></li>
+                        <li><a href="#">烈火封神</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <!--中间右半部分结束-->
+
+
+        <div class="hotGame">
+            <div class="s">
+                <ul>
+                    <li><a href=""><img src="images/sxj.png"></a></li>
+                    <li><a href=""><img src="images/qkzj.png"></a></li>
+                    <li><a href=""><img src="images/tdzs.png"></a></li>
+                </ul>
+
+            </div>
+            <!--中间右下半部分游戏界面开始-->
+            <div class="hot_list">
+                <div class="tj_hot">
+                    <div class="tj_game">热门游戏</div>
+                    <div class="more">女神联盟-单服大亨 风暴领主降临</div>
+                    <a href="#" class="all_game">所有游戏>></a>
+                </div>
+            </div>
+            <div class="hotDiv">
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/cycs.jpg" height="120" width="220"/></dt>
+
+                        <dd class="cc">
+                            赤月传说
+                        </dd>
+                        <dd class="c">
+                            进入官网 &nbsp;礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/qyz.jpg" height="120" width="220"/></dt>
+                        <dd class="cc">
+                            青云志
+                        </dd>
+                        <dd class="c">
+                            进入官网&nbsp;礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/lhfs.jpg" height="120" width="220"/></dt>
+                        <dd class="cc">
+                            烈火封神
+                        </dd>
+                        <dd class="c">
+                            进入官网 礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/tmoly.jpg" height="120" width="220"/></dt>
+
+                        <dd class="cc">
+                            绝世唐门
+                        </dd>
+                        <dd class="c">
+                            进入官网 &nbsp;礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/dts.jpg" height="120" width="220"/></dt>
+                        <dd class="cc">
+                            大天使之剑
+                        </dd>
+                        <dd class="c">
+                            进入官网&nbsp;礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/bwzx.jpg" height="120" width="220"/></dt>
+                        <dd class="cc">
+                            霸王之心
+                        </dd>
+                        <dd class="c">
+                            进入官网 礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/jyjh.jpg" height="120" width="220"/></dt>
+
+                        <dd class="cc">
+                            剑雨江湖
+                        </dd>
+                        <dd class="c">
+                            进入官网 &nbsp;礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/rlcs.jpg" height="120" width="220"/></dt>
+                        <dd class="cc">
+                            如龙传说
+                        </dd>
+                        <dd class="c">
+                            进入官网&nbsp;礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/dpsc.jpg" height="120" width="220"/></dt>
+                        <dd class="cc">
+                            斗破沙城
+                        </dd>
+                        <dd class="c">
+                            进入官网 礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/lt.jpg" height="120" width="220"/></dt>
+
+                        <dd class="cc">
+                            雷霆之怒
+                        </dd>
+                        <dd class="c">
+                            进入官网 &nbsp;礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/sq.jpg" height="120" width="220"/></dt>
+                        <dd class="cc">
+                            神曲
+                        </dd>
+                        <dd class="c">
+                            进入官网&nbsp;礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+                <div class="hot">
+                    <dl>
+                        <dt>
+                            <img src="images/bztx.jpg" height="120" width="220"/></dt>
+                        <dd class="cc">
+                            百战天下
+                        </dd>
+                        <dd class="c">
+                            进入官网 礼包领取 <input type="button" value="开始游戏">
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!--中间右下半部分游戏结束-->
+    </div>
+    <!--下部分开始-->
+    <div class="bottom">
+        <div class="bottomMenu">
+            <ul id="bottomUl">
+                <li class="bottomMenuClick"><a href="javascript:void(0)">所有游戏</a></li>
+                <li><a href="javascript:void(0)">ABECDE</a></li>
+                <li><a href="javascript:void(0)">FGHIJK</a></li>
+                <li><a href="javascript:void(0)">LMNOP</a></li>
+                <li><a href="javascript:void(0)">QRSTU</a></li>
+                <li><a href="javascript:void(0)">VWXYZ</a></li>
+                <a href="javascript:void(0)" class="more_one">更多>></a>
+            </ul>
+        </div>
+        <div class="bottomGame" id="bottomGame">
+            <ul class="">
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">神仙劫</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">烈火封神</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">绝世唐门</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">青云志</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">如龙传说</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">武炼巅峰</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">剑侠情缘</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">天地诸神</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">生死簿</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">龙麟圣域</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">战魔三国</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">神仙劫</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">斗破沙城</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">剑雨江湖</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">唐门六道</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">赤月传说Ⅱ</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">魔兽王座</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">龙之领主</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">雷霆之怒</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">通天西游</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">佛本是道</a>
+                </li>
+                <li>
+                    <div class="godCatch"></div>
+                    <a href="">花千骨</a>
+                </li>
+            </ul>
+            <ul class="hidden">
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">神仙劫</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">花千骨</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">佛本是道</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">通天西游</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">龙之领主</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">魔兽王座</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">赤月传说Ⅱ</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">唐门六道</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">剑雨江湖</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">龙麟圣域</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">斗破沙城</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">神仙劫</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">战魔三国</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">生死簿</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">剑侠情缘</a>
+                </li>
+
+            </ul>
+            <ul class="hidden">
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">唐门六道</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">生死簿</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">战魔三国</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">神仙劫</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">斗破沙城</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">龙麟圣域</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">剑雨江湖</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">唐门六道</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">赤月传说Ⅱ</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">魔兽王座</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">佛本是道</a>
+                </li>
+            </ul>
+            <ul class="hidden">
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">生死簿</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">战魔三国</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">神仙劫</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">斗破沙城</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">龙麟圣域</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">剑雨江湖</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">唐门六道</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">赤月传说Ⅱ</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">魔兽王座</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">佛本是道</a>
+                </li>
+            </ul>
+            <ul class="hidden">
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">佛本是道</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">生死簿</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">大青云</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">战魔三国</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">神仙劫</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">斗破沙城</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">龙麟圣域</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">剑雨江湖</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">唐门六道</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">赤月传说Ⅱ</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">魔兽王座</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">乾坤战纪</a>
+                </li>
+                <li>
+                    <div class="bigGreenGame"></div>
+                    <a href="">佛本是道</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--下部分end-->
+
+
+    <div id="bottom_box">
+        <div class="strategy">
+            <div class="titile_class">热门攻略</div>
+            <ul>
+                <li><a href="#" class="it">· 剑雨江湖-跨服多人副本</a></li>
+                <li><a href="#" class="it">· 剑雨江湖-温泉活动详解</a></li>
+                <li><a href="#" class="it">· 剑雨江湖-双倍护送详解</a></li>
+                <li><a href="#" class="it">· 剑雨江湖-世界BOSS详解</a></li>
+                <li><a href="#" class="it">· 剑雨江湖-剧情闯关副本</a></li>
+                <li><a href="#" class="it">· 剑雨江湖-帮会争霸详解</a></li>
+                <li><a href="#" class="it">· 烈火封神-1V1段位赛</a></li>
+                <li><a href="#" class="it">· 烈火封神-圣域争夺</a></li>
+            </ul>
+
+        </div>
+        <div class="question">
+            <div class="titile_class">常见问题</div>
+            <ul>
+                <li><a href="#" class="it">· 游戏充值FAQ</a></li>
+                <li><a href="#" class="it">· 游戏无法登录的处理方法</a></li>
+                <li><a href="#" class="it">· 如何使用网银充值游戏币?</a></li>
+                <li><a href="#" class="it">· 盗号恢复申诉处理</a></li>
+                <li><a href="#" class="it">· 账号安全FAQ</a></li>
+                <li><a href="#" class="it">· 日常游戏FAQ</a></li>
+                <li><a href="#" class="it">· 部分第三方网络的玩家无法登录游戏</a></li>
+                <li><a href="#" class="it">· 各种浏览器清理缓存的方法</a></li>
+            </ul>
+        </div>
+        <div class="kefuBox">
+            <div class="kefuSelect">
+                <div class="head">
+                    快速通道
+                </div>
+                <div class="fastDiv">
+                    <a href="#" class="fastRoad">免费注册</a>
+                    <a href="#" class="fastRoad">快速充值</a>
+                    <a href="#" class="fastRoad">找回密码</a>
+                    <a href="#" class="fastRoad">快递游戏</a>
+                    <a href="#" class="fastRoad">账号修复</a>
+                    <a href="#" class="fastRoad">新手礼包</a>
+                </div>
+            </div>
+            <div class="kefuImg">
+                <div class="kefuTel">
+                    <span>客服热线：18028698842</span><br>
+                    <span>客服邮箱：kefu@99yx.com</span>
+                    <div class="callKefu"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end-->
+    <!--友情链接-->
+    <div class="linkBox">
+        <div class="link">
+            <div class="link_title">
+                <ul>
+                    <li><a href="#" class="friend">友情链接</a></li>
+                    <li><a href="#" class="link_more">more>></a></li>
+                </ul>
+            </div>
+            <div class="link_content">
+                <a href="#" class="light">黑暗之光</a>
+                <a href="#" class="light">游戏一起玩</a>
+                <a href="#" class="light">鬼服村服开服表</a>
+                <a href="#" class="light">226y开服表</a>
+                <a href="#" class="light">开服网页游戏</a>
+                <a href="#" class="light">99小游戏</a>
+                <a href="#" class="light">073游戏网</a>
+                <a href="#" class="light">LOL视频</a>
+                <a href="#" class="light">单机游戏大全</a>
+                <a href="#" class="light">一起玩网页游戏</a>
+                <a href="#" class="light">264G网页游戏</a>
+                <a href="#" class="light">网页游戏排行榜</a>
+                <a href="#" class="light">顺网开服表</a>
+                <a href="#" class="light">汉网开服表</a>
+                <a href="#" class="light">齐名网页游戏</a>
+                <a href="#" class="light">92ay网页游戏</a>
+                <a href="#" class="light">泡泡玩</a>
+                <a href="#" class="light">页游开服表</a>
+                <a href="#" class="light">网页游戏开服表</a>
+                <a href="#" class="light"> 豹子发开服表</a>
+                <a href="#" class="light">游戏迷</a>
+                <a href="#" class="light">Guan5页游网</a>
+                <a href="#" class="light">最新网页游戏</a>
+                <a href="#" class="light">66378游戏网</a>
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <!--友情链接end-->
+    <!--关于我们界面-->
+    <div id="footer">
+        <p class="about_box">
+        <p class="about_us">
+            <a href="#" class="foot"><img src="images/wangwen.png"></a>
+            <a href="#" class="foot">关于我们</a>
+            <a href="#" class="foot">用户协议</a>
+            <a href="#" class="foot">商务合作</a>
+            <a href="#" class="foot">人才招聘</a>
+            <a href="#" class="foot">家长监护</a>
+        </p>
+        <p class="last">抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间,享受健康生活。</p>
+        <p class="last">粤网文[2014]0801-301号 备案号：粤ICP备14067205号-5 增值电信业务经营许可证：粤B2-20060143</p>
+        <p class="last">Copyright © 1998-2015 All rights reserved 久久游戏 版权所有</p>
+    </div>
+</div>
+<!--关于我们界面-->
+</div>
+</div>
+<script src="js/head.js?v=1"></script>
+</body>
+</html>

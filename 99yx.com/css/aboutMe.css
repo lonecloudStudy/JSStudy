@@ -1,0 +1,99 @@
+
+#top {
+    background-image: url("../images/head_bg.png");
+    height: 32px;
+    line-height: 32px;
+}
+
+#top_content {
+    font-size: 12px;
+    width: 1024px;
+    margin: 8px auto;
+    height: 16px;
+    line-height: 16px;
+}
+
+.red {
+    color: red;
+}
+
+.icon_bg {
+    background-image: url("../images/icon.png");
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.android {
+    background-position: -55px 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.iphone {
+    background-position: -70px 1px;
+}
+
+#top_left {
+    float: left;
+    height: 16px;
+    width: 400px;
+}
+
+#top_right {
+    float: right;
+    height: 16px;
+    width: 600px;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+}
+
+.top_left_ul li a:hover span.android {
+    background-position: -55px -15px;
+
+}
+
+.top_left_ul li a:hover span.iphone {
+    background-position: -70px -15px;
+}
+
+.top_right_ul li a:hover span.logo {
+    background-position: -35px -15px;
+
+}
+
+.top_right_ul li a:hover span.reg {
+    background-position: -35px -51px;
+}
+
+.top_right_ul li a:hover span.desk {
+    background-position: -0px -14px;
+}
+
+.top_right_ul li a:hover span.save {
+    background-position: -18px -14px;
+}
+
+.top_left_ul li {
+    float: left;
+    margin: 0px 3px;
+}
+
+.top_left_ul li a:hover {
+    color: #ff5d13;
+}
+
+.top_right_ul li {
+    float: right;
+    margin: 0px 3px;
+}
+
+.top_right_ul li a:hover {
+    color: #ff5d13;
+}

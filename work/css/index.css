@@ -1,0 +1,179 @@
+#top {
+    background-image: url("../images/index/head_bg.png");
+    height: 32px;
+    line-height: 32px;
+}
+
+#top_content {
+    font-size: 12px;
+    width: 1024px;
+    margin: 8px auto;
+    height: 16px;
+    line-height: 16px;
+}
+
+.red {
+    color: red;
+}
+
+.icon_bg {
+    background-image: url("../images/index/icon.png");
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.android {
+    background-position: -55px 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.iphone {
+    background-position: -70px 1px;
+}
+
+#top_left {
+    float: left;
+    height: 16px;
+    width: 400px;
+}
+
+#top_right {
+    float: right;
+    height: 16px;
+    width: 600px;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+}
+
+.top_left_ul li {
+    float: left;
+    margin: 0px 3px;
+}
+
+.top_left_ul li a:hover {
+    color: #ff4840;
+}
+.top_left_ul li a:hover span.android{
+    background-position: -55px -15px;
+
+}
+.top_left_ul li a:hover span.iphone{
+    background-position: -70px -15px;
+}
+.top_right_ul li {
+    float: right;
+    margin: 0px 3px;
+}
+
+.top_right_ul li a:hover {
+    color: #ff4840;
+}
+.logo {
+    background-position: -35px 1px;
+}
+a:hover span.logo:hover{
+    background-position:-35px -16px ;
+}
+.reg {
+    background-position: -35px 52px;
+}
+a:hover span.reg:hover{
+    background-position:-35px -38px ;
+}
+.desk {
+    background-position: 0px 2px;
+}
+
+.save {
+    background-position: -18px 2px;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    width: 1024px;
+    margin: 20px auto 0px;
+}
+
+.menu_index {
+    float: right;
+    margin-top: 30px;
+}
+
+.menu_index_ul li {
+    float: left;
+    width: 80px;
+    font-size: 16px;
+}
+
+.menu_index_ul li a:hover {
+    color: #ff4840;
+}
+.menu_index_ul li a:hover span {
+    border-bottom: 2px solid #ff4840;
+}
+.login {
+    background-image: url("../images/index/banner.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login_panel {
+    height: 300px;
+    width: 270px;
+    background-color: #3c3c3c;
+    opacity: 0.3;
+}
+
+.span_username {
+    background: url("../images/index/icon_ui.png") no-repeat;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    background-position: 0 0;
+    width: 15px;
+    height: 15px;
+}
+.span_
+.login_panel li {
+    height: 25px;
+    line-height: 25px;
+    width: 125px;
+}
+.login_panel li input {
+    height: 30px;
+    line-height: 30px;
+    width: 170px;
+    padding-left: 30px;
+    border: none;
+    border-width: 0;
+    background: rgba(255,255,255,0.5);
+    color: #393939;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.06) inset;
+}
+.hot {
+    border: 1px solid white;
+    padding: 5px;
+    width: 240px;
+    display: inline-block;
+}
+
+.hot:hover {
+    border-color: orange;
+}
+
+.c:hover {
+    color: #ff4840;
+}
